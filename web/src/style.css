@@ -1,9 +1,12 @@
 :root {
-  --blue: #2029b6;
-  --white: #ffffff;
-  --yellow: #ffcc00;
-  --red: #e2231a;
-  --hairline: rgba(255, 255, 255, 0.25);
+  --paper: #fbfaf6;
+  --ink: #111111;
+  --red: #eb0000;
+  --yellow: #f0b400;
+  --muted: #6b6a66;
+  --rule: #d9d7d0;
+  --dot: #c9c6bc;
+  --row-selected: #f1efe8;
 }
 
 * {
@@ -17,8 +20,16 @@ body {
 }
 
 body {
-  background: var(--blue);
-  color: var(--white);
-  font-family: 'Roboto Condensed', sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Public Sans', Helvetica, Arial, sans-serif;
   font-variant-numeric: tabular-nums;
+}
+
+a {
+  color: var(--ink);
+}
+
+a:hover {
+  color: var(--red);
 }

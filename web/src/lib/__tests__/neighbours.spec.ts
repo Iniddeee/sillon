@@ -69,7 +69,7 @@ describe('neighbours', () => {
   it('accepts a custom window', () => {
     const selected = train('S3|08:00', '08:00', reliable)
     const near = train('S3|08:20', '08:20', reliable)
-    const result = neighbours([selected, near], selected, 15)
+    const result = neighbours([selected, near], selected, 2, 15)
     expect(result).toEqual([])
   })
 })

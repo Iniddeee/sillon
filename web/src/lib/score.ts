@@ -35,8 +35,7 @@ export function missed(train: Train, day: Day, transferMin: number): boolean {
   return by !== null && by + transferMin > 0
 }
 
-// default 2 matches the pipeline's default (config/pairs.json min_transfer_min);
-// TrainDetail.vue doesn't have the pair's transfer_min to pass in yet
+// default 2 matches the pipeline's default (config/pairs.json min_transfer_min)
 export function score(train: Train, transferMin = 2): Score {
   const days = Object.values(train.days)
   const real = days.filter((d) => d.status === 'real')

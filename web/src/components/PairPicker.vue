@@ -6,9 +6,9 @@ defineEmits<{ 'update:modelValue': [id: string] }>()
 </script>
 
 <template>
-  <span class="picker-wrap">
+  <label class="picker">
     <select
-      class="picker"
+      class="select"
       :value="modelValue"
       @change="$emit('update:modelValue', ($event.target as HTMLSelectElement).value)"
     >
@@ -16,36 +16,46 @@ defineEmits<{ 'update:modelValue': [id: string] }>()
         {{ pair.from.name }} → {{ pair.to.name }}
       </option>
     </select>
-    <span class="chevron" aria-hidden="true">▾</span>
-  </span>
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 16 16"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="1.8"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      aria-hidden="true"
+    >
+      <path d="M3 6l5 5 5-5" />
+    </svg>
+  </label>
 </template>
 
 <style scoped>
-.picker-wrap {
-  position: relative;
-  display: inline-block;
-  width: 100%;
-  max-width: 24rem;
+.picker {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--ink);
+  cursor: pointer;
 }
 
-.picker {
+.select {
   appearance: none;
   border: none;
-  border-bottom: 2px solid var(--white);
   background: transparent;
-  color: var(--white);
+  color: inherit;
   font: inherit;
-  font-weight: 700;
-  font-size: 1.15rem;
-  padding: 0.5rem 1.5rem 0.5rem 0;
-  width: 100%;
+  padding: 0;
+  cursor: pointer;
 }
 
-.chevron {
-  position: absolute;
-  right: 0;
-  bottom: 0.55rem;
-  font-size: 0.9rem;
-  pointer-events: none;
+@media (max-width: 899px) {
+  .picker {
+    font-size: 14px;
+  }
 }
 </style>

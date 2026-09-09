@@ -1,5 +1,6 @@
-import '@fontsource/roboto-condensed/400.css'
-import '@fontsource/roboto-condensed/700.css'
+import '@fontsource/public-sans/400.css'
+import '@fontsource/public-sans/600.css'
+import '@fontsource/public-sans/700.css'
 import './style.css'
 
 import { createApp } from 'vue'

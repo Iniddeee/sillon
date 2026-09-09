@@ -12,13 +12,18 @@ function minutesOf(hhmm: string): number {
   return Number(h) * 60 + Number(m)
 }
 
-export function neighbours(trains: Train[], selected: Train, windowMin = 60): Ranked[] {
+export function neighbours(
+  trains: Train[],
+  selected: Train,
+  transferMin = 2,
+  windowMin = 60,
+): Ranked[] {
   const selectedMin = minutesOf(selected.planned_dep)
 
   return trains
     .filter((t) => t.key !== selected.key)
     .filter((t) => Math.abs(minutesOf(t.planned_dep) - selectedMin) < windowMin)
-    .map((train) => ({ train, score: score(train) }))
+    .map((train) => ({ train, score: score(train, transferMin) }))
     .sort(compareRanked)
 }
 
@@ -44,11 +49,11 @@ function compareDesc(a: number | null, b: number | null): number {
   return b - a
 }
 
-export function verdict(selected: Train, ranked: Ranked[]): string {
+export function verdict(selected: Train, ranked: Ranked[], transferMin = 2): string {
   if (ranked.length === 0) return "Aucun autre départ à moins d'une heure."
 
   const best = ranked[0]!
-  const ownRate = score(selected).rate
+  const ownRate = score(selected, transferMin).rate
 
   if (best.score.rate !== null && ownRate !== null && best.score.rate - ownRate >= 0.05) {
     const time = best.train.planned_dep.replace(':', '.')
