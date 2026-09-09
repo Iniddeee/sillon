@@ -1,0 +1,148 @@
+{
+  "@context": {
+    "brick": "https://brickschema.org/schema/Brick#",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://data.opentransportdata.swiss/dataset/febff1f3-ee85-470a-9487-2d07f93457c1/resource/79d98bdd-0166-440d-b468-be95b2c030d8",
+      "@type": [
+        "schema:DataDownload",
+        "schema:Distribution"
+      ],
+      "dcterms:coverage": "100 %",
+      "dcterms:identifier": "2026-07-21_IstDaten.csv",
+      "dcterms:issued": "2026-07-22T03:11:42.980082",
+      "dcterms:modified": "2026-07-22T03:11:42.980082",
+      "schema:accessURL": {
+        "@id": "https://data.opentransportdata.swiss/dataset/febff1f3-ee85-470a-9487-2d07f93457c1/resource/79d98bdd-0166-440d-b468-be95b2c030d8/download/2026-07-21_istdaten.csv"
+      },
+      "schema:byteSize": 649301289,
+      "schema:contentSize": 649301289,
+      "schema:dateModified": "2026-07-22T03:11:42.980082",
+      "schema:datePublished": "2026-07-22T03:11:42.980082",
+      "schema:encodingFormat": "CSV",
+      "schema:name": [
+        {
+          "@language": "en",
+          "@value": "2026-07-21_IstDaten.csv"
+        },
+        {
+          "@language": "fr",
+          "@value": "2026-07-21_IstDaten.csv"
+        },
+        {
+          "@language": "de",
+          "@value": "2026-07-21_IstDaten.csv"
+        },
+        {
+          "@language": "it",
+          "@value": "2026-07-21_IstDaten.csv"
+        }
+      ],
+      "schema:url": "https://data.opentransportdata.swiss/dataset/febff1f3-ee85-470a-9487-2d07f93457c1/resource/79d98bdd-0166-440d-b468-be95b2c030d8/download/2026-07-21_istdaten.csv"
+    },
+    {
+      "@id": "https://data.opentransportdata.swiss/dataset/febff1f3-ee85-470a-9487-2d07f93457c1/resource/c206af60-9d27-4f99-aacd-0f86c29c8132",
+      "@type": [
+        "schema:DataDownload",
+        "schema:Distribution"
+      ],
+      "dcterms:coverage": "100 %",
+      "dcterms:identifier": "2026-07-22_IstDaten.csv",
+      "dcterms:issued": "2026-07-23T03:11:41.888074",
+      "dcterms:modified": "2026-07-23T03:11:41.888074",
+      "schema:accessURL": {
+        "@id": "https://data.opentransportdata.swiss/dataset/febff1f3-ee85-470a-9487-2d07f93457c1/resource/c206af60-9d27-4f99-aacd-0f86c29c8132/download/2026-07-22_istdaten.csv"
+      },
+      "schema:byteSize": 648445905,
+      "schema:contentSize": 648445905,
+      "schema:dateModified": "2026-07-23T03:11:41.888074",
+      "schema:datePublished": "2026-07-23T03:11:41.888074",
+      "schema:encodingFormat": "CSV",
+      "schema:name": [
+        {
+          "@language": "fr",
+          "@value": "2026-07-22_IstDaten.csv"
+        },
+        {
+          "@language": "it",
+          "@value": "2026-07-22_IstDaten.csv"
+        },
+        {
+          "@language": "de",
+          "@value": "2026-07-22_IstDaten.csv"
+        },
+        {
+          "@language": "en",
+          "@value": "2026-07-22_IstDaten.csv"
+        }
+      ],
+      "schema:url": "https://data.opentransportdata.swiss/dataset/febff1f3-ee85-470a-9487-2d07f93457c1/resource/c206af60-9d27-4f99-aacd-0f86c29c8132/download/2026-07-22_istdaten.csv"
+    },
+    {
+      "@id": "https://data.opentransportdata.swiss/dataset/febff1f3-ee85-470a-9487-2d07f93457c1/resource/937a4c61-76a8-43e6-8738-0ba61e90492a",
+      "@type": [
+        "schema:Distribution",
+        "schema:DataDownload"
+      ],
+      "dcterms:coverage": "100 %",
+      "dcterms:identifier": "2026-07-23_IstDaten.csv",
+      "dcterms:issued": "2026-07-24T03:11:40.951365",
+      "dcterms:modified": "2026-07-24T03:11:40.951365",
+      "schema:accessURL": {
+        "@id": "https://data.opentransportdata.swiss/dataset/febff1f3-ee85-470a-9487-2d07f93457c1/resource/937a4c61-76a8-43e6-8738-0ba61e90492a/download/2026-07-23_istdaten.csv"
+      },
+      "schema:byteSize": 650666368,
+      "schema:contentSize": 650666368,
+      "schema:dateModified": "2026-07-24T03:11:40.951365",
+      "schema:datePublished": "2026-07-24T03:11:40.951365",
+      "schema:encodingFormat": "CSV",
+      "schema:name": [
+        {
+          "@language": "fr",
+          "@value": "2026-07-23_IstDaten.csv"
+        },
+        {
+          "@language": "de",
+          "@value": "2026-07-23_IstDaten.csv"
+        },
+        {
+          "@language": "it",
+          "@value": "2026-07-23_IstDaten.csv"
+        },
+        {
+          "@language": "en",
+          "@value": "2026-07-23_IstDaten.csv"
+        }
+      ],
+      "schema:url": "https://data.opentransportdata.swiss/dataset/febff1f3-ee85-470a-9487-2d07f93457c1/resource/937a4c61-76a8-43e6-8738-0ba61e90492a/download/2026-07-23_istdaten.csv"
+    }
+  ]
+}
