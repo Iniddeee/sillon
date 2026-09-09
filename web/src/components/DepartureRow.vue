@@ -1,17 +1,12 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-import type { Station, Train } from '@/lib/data'
-import { trainDays } from '@/lib/data'
+import type { Train } from '@/lib/data'
 import { score } from '@/lib/score'
-import DayStrip from './DayStrip.vue'
 
-const props = defineProps<{ train: Train; selected: boolean; transferMin: number; via: Station | null }>()
+const props = defineProps<{ train: Train; selected: boolean; transferMin: number }>()
 defineEmits<{ click: [] }>()
 
-const days = computed(() => trainDays(props.train))
 const s = computed(() => score(props.train, props.transferMin))
-const whiteBadge = computed(() => props.train.line.startsWith('S'))
-const whiteBadge2 = computed(() => props.train.line2?.startsWith('S') ?? false)
 
 function time(hhmm: string): string {
   return hhmm.replace(':', '.')
@@ -20,46 +15,35 @@ function time(hhmm: string): string {
 function rateLabel(rate: number | null): string {
   return rate === null ? '—' : `${Math.round(rate * 100)} %`
 }
+
+const rateColor = computed(() => (s.value.rate !== null && s.value.rate < 0.9 ? '#eb0000' : '#111111'))
 </script>
 
 <template>
   <button class="row" :class="{ selected: props.selected }" type="button" @click="$emit('click')">
-    <span v-if="train.line2" class="line itinerary">
-      <span class="badge" :class="{ white: whiteBadge }">{{ train.line }}</span>
-      <span class="time">{{ time(train.planned_dep) }}</span>
-      <span class="arrow">→</span>
-      <span class="via">{{ via?.name }} {{ time(train.via_arr!) }}</span>
-      <span class="arrow">→</span>
-      <span class="badge" :class="{ white: whiteBadge2 }">{{ train.line2 }}</span>
-      <span class="time small">{{ time(train.via_dep!) }}</span>
-      <span class="arrow">→</span>
-      <span class="time">{{ time(train.planned_arr) }}</span>
-      <span class="rate" :class="{ warn: s.rate !== null && s.rate < 0.9 }">{{
-        rateLabel(s.rate)
-      }}</span>
+    <span class="badge">{{ train.line }}</span>
+    <span class="time">{{ time(train.planned_dep) }}</span>
+    <span v-if="train.line2" class="itinerary">
+      <span class="via">→ {{ time(train.via_arr!) }}</span>
+      <span class="badge small">{{ train.line2 }}</span>
+      <span class="via">{{ time(train.via_dep!) }}</span>
     </span>
-    <span v-else class="line">
-      <span class="badge" :class="{ white: whiteBadge }">{{ train.line }}</span>
-      <span class="time">{{ time(train.planned_dep) }}</span>
-      <span class="arrow">→</span>
-      <span class="time">{{ time(train.planned_arr) }}</span>
-      <span class="rate" :class="{ warn: s.rate !== null && s.rate < 0.9 }">{{
-        rateLabel(s.rate)
-      }}</span>
-    </span>
-    <DayStrip class="strip" :days="days" :train="train" :transfer-min="transferMin" :via="via" />
+    <span v-else class="arr"><span class="arr-label">arrivée </span>{{ time(train.planned_arr) }}</span>
+    <span class="rate" :style="{ color: rateColor }">{{ rateLabel(s.rate) }}</span>
   </button>
 </template>
 
 <style scoped>
 .row {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+  display: grid;
+  grid-template-columns: 40px 76px minmax(0, 1fr) 72px;
+  gap: 10px;
+  align-items: baseline;
   width: 100%;
-  padding: 0.75rem 0;
+  padding: 9px 6px;
+  margin: 0 -6px;
   border: none;
-  border-top: 1px solid var(--hairline);
+  border-top: 1px solid var(--rule);
   background: transparent;
   color: inherit;
   font: inherit;
@@ -67,62 +51,60 @@ function rateLabel(rate: number | null): string {
   cursor: pointer;
 }
 
-.row:hover,
-.row.selected {
-  background: rgba(255, 255, 255, 0.08);
-}
-
-.line {
-  display: flex;
-  align-items: baseline;
-  flex-wrap: wrap;
-  gap: 0.4rem 0.6rem;
+.row.selected,
+.row:hover {
+  background: var(--row-selected);
 }
 
 .badge {
   background: var(--red);
-  color: var(--white);
+  color: #ffffff;
   font-weight: 700;
-  font-size: 0.75rem;
-  padding: 0.15rem 0.4rem;
-  line-height: 1;
+  font-size: 11px;
+  padding: 3px 0;
+  text-align: center;
 }
 
-.badge.white {
-  background: var(--white);
-  color: var(--blue);
+.badge.small {
+  padding: 2px 6px;
 }
 
 .time {
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 20px;
 }
 
-.time.small {
-  font-size: 1rem;
-  opacity: 0.85;
+.arr,
+.itinerary {
+  font-size: 12px;
+  color: var(--muted);
 }
 
-.via {
-  font-size: 0.8rem;
-  opacity: 0.7;
+.arr-label {
+  color: var(--muted);
 }
 
-.arrow {
-  opacity: 0.7;
+.itinerary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  align-items: baseline;
 }
 
 .rate {
-  margin-left: auto;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 20px;
+  text-align: right;
 }
 
-.rate.warn {
-  color: var(--yellow);
-}
+@media (max-width: 899px) {
+  .time,
+  .rate {
+    font-size: 18px;
+  }
 
-.strip {
-  width: 100%;
+  .arr-label {
+    display: none;
+  }
 }
 </style>

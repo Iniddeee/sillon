@@ -19,7 +19,7 @@ describe('App', () => {
     expect(wrapper.text()).toContain('Les données arrivent avec le premier passage nocturne.')
   })
 
-  it('lists the tracked pairs and loads the departures of the first one', async () => {
+  it('lists the tracked pairs and puts the first departure of the first pair in the hero', async () => {
     const index = {
       generated: '2026-09-08',
       days: ['2026-09-08'],
@@ -71,5 +71,6 @@ describe('App', () => {
     expect(wrapper.text()).toContain('Delémont → Porrentruy')
     expect(wrapper.text()).toContain('Bienne/Biel → Lausanne')
     expect(wrapper.text()).toContain('07.04')
+    expect(wrapper.find('a.sbb').attributes('href')).toContain('von=Del%C3%A9mont')
   })
 })
