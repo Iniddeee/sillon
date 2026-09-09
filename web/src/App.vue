@@ -71,7 +71,12 @@ function selectTrain(train: Train) {
         :selected-key="selectedTrain?.key ?? null"
         @select="selectTrain"
       />
-      <TrainDetail v-if="selectedTrain" :train="selectedTrain" />
+      <TrainDetail
+        v-if="selectedTrain"
+        :train="selectedTrain"
+        :trains="pairData?.trains ?? []"
+        @select="selectTrain"
+      />
     </template>
   </main>
 </template>
