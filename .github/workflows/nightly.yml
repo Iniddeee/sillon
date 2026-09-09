@@ -1,0 +1,94 @@
+name: Nightly
+
+on:
+  schedule:
+    - cron: '37 4 * * *'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Last day to process (ISO, default: yesterday)'
+        required: false
+        default: ''
+      days:
+        description: 'Number of days ending at date, oldest first (backfill)'
+        required: false
+        default: '1'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nightly
+  cancel-in-progress: false
+
+jobs:
+  run:
+    name: run
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: pipeline/pyproject.toml
+
+      - name: Install
+        run: pip install ./pipeline
+
+      - name: Prepare data branch
+        id: data-branch
+        run: |
+          if git ls-remote --exit-code --heads origin data; then
+            git fetch --depth=1 origin data
+            git worktree add data origin/data
+          else
+            git worktree add --detach data
+            git -C data checkout --orphan data
+            git -C data rm -rfq . || true
+          fi
+
+      - name: Compute day range
+        id: range
+        run: |
+          end="${{ inputs.date }}"
+          end="${end:-$(date -u -d yesterday +%F)}"
+          days="${{ inputs.days }}"
+          days="${days:-1}"
+          start=$(date -u -d "$end - $((days - 1)) days" +%F)
+          echo "start=$start" >> "$GITHUB_OUTPUT"
+          echo "end=$end" >> "$GITHUB_OUTPUT"
+          echo "days=$days" >> "$GITHUB_OUTPUT"
+
+      - name: Run pipeline, one day at a time
+        run: |
+          end="${{ steps.range.outputs.end }}"
+          days="${{ steps.range.outputs.days }}"
+          for i in $(seq $((days - 1)) -1 0); do
+            d=$(date -u -d "$end - $i days" +%F)
+            echo "::group::$d"
+            sillon run --date "$d" --pairs config/pairs.json --data ./data
+            echo "::endgroup::"
+          done
+
+      - name: Commit and push data branch
+        run: |
+          cd data
+          git add -A
+          if git diff --cached --quiet; then
+            echo "no changes"
+            exit 0
+          fi
+          start="${{ steps.range.outputs.start }}"
+          end="${{ steps.range.outputs.end }}"
+          if [ "$start" = "$end" ]; then
+            msg="data: $end"
+          else
+            msg="data: $start..$end"
+          fi
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -m "$msg"
+          git push origin HEAD:data
