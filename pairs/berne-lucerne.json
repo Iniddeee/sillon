@@ -1,0 +1,337 @@
+{
+  "from": {
+    "bpuic": 8507000,
+    "name": "Berne"
+  },
+  "id": "berne-lucerne",
+  "to": {
+    "bpuic": 8505000,
+    "name": "Lucerne"
+  },
+  "trains": [
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
+        }
+      },
+      "key": "IR15|06:00",
+      "line": "IR15",
+      "planned_arr": "07:01",
+      "planned_dep": "06:00"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IR15|07:00",
+      "line": "IR15",
+      "planned_arr": "08:01",
+      "planned_dep": "07:00"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
+        }
+      },
+      "key": "IR15|08:00",
+      "line": "IR15",
+      "planned_arr": "09:01",
+      "planned_dep": "08:00"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 2,
+          "dep": 3,
+          "status": "real"
+        }
+      },
+      "key": "IR15|09:00",
+      "line": "IR15",
+      "planned_arr": "10:01",
+      "planned_dep": "09:00"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IR15|10:00",
+      "line": "IR15",
+      "planned_arr": "11:01",
+      "planned_dep": "10:00"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "status": "cancelled"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IR15|11:00",
+      "line": "IR15",
+      "planned_arr": "12:01",
+      "planned_dep": "11:00"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 1,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IR15|12:00",
+      "line": "IR15",
+      "planned_arr": "13:01",
+      "planned_dep": "12:00"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IR15|13:00",
+      "line": "IR15",
+      "planned_arr": "14:01",
+      "planned_dep": "13:00"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IR15|14:00",
+      "line": "IR15",
+      "planned_arr": "15:01",
+      "planned_dep": "14:00"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IR15|15:00",
+      "line": "IR15",
+      "planned_arr": "16:01",
+      "planned_dep": "15:00"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 3,
+          "dep": 1,
+          "status": "real"
+        }
+      },
+      "key": "IR15|16:00",
+      "line": "IR15",
+      "planned_arr": "17:01",
+      "planned_dep": "16:00"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 1,
+          "dep": 1,
+          "status": "real"
+        }
+      },
+      "key": "IR15|17:00",
+      "line": "IR15",
+      "planned_arr": "18:01",
+      "planned_dep": "17:00"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 4,
+          "dep": 1,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 1,
+          "dep": 1,
+          "status": "real"
+        }
+      },
+      "key": "IR15|18:00",
+      "line": "IR15",
+      "planned_arr": "19:01",
+      "planned_dep": "18:00"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 2,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IR15|19:00",
+      "line": "IR15",
+      "planned_arr": "20:01",
+      "planned_dep": "19:00"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 1,
+          "dep": 1,
+          "status": "real"
+        }
+      },
+      "key": "IR15|20:00",
+      "line": "IR15",
+      "planned_arr": "21:01",
+      "planned_dep": "20:00"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
+        }
+      },
+      "key": "IR15|21:00",
+      "line": "IR15",
+      "planned_arr": "22:01",
+      "planned_dep": "21:00"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 2,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IR15|22:00",
+      "line": "IR15",
+      "planned_arr": "23:01",
+      "planned_dep": "22:00"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IR15|23:00",
+      "line": "IR15",
+      "planned_arr": "00:01",
+      "planned_dep": "23:00"
+    }
+  ],
+  "transfer_min": 2,
+  "via": null
+}

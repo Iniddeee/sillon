@@ -1,0 +1,309 @@
+{
+  "days": [
+    "2026-09-06",
+    "2026-09-07"
+  ],
+  "generated": "2026-09-09",
+  "pairs": [
+    {
+      "from": {
+        "bpuic": 8500109,
+        "name": "Delémont"
+      },
+      "id": "delemont-porrentruy",
+      "to": {
+        "bpuic": 8500126,
+        "name": "Porrentruy"
+      },
+      "via": null
+    },
+    {
+      "from": {
+        "bpuic": 8500126,
+        "name": "Porrentruy"
+      },
+      "id": "porrentruy-delemont",
+      "to": {
+        "bpuic": 8500109,
+        "name": "Delémont"
+      },
+      "via": null
+    },
+    {
+      "from": {
+        "bpuic": 8500109,
+        "name": "Delémont"
+      },
+      "id": "delemont-bale",
+      "to": {
+        "bpuic": 8500010,
+        "name": "Bâle"
+      },
+      "via": null
+    },
+    {
+      "from": {
+        "bpuic": 8500109,
+        "name": "Delémont"
+      },
+      "id": "delemont-bienne",
+      "to": {
+        "bpuic": 8504300,
+        "name": "Bienne"
+      },
+      "via": null
+    },
+    {
+      "from": {
+        "bpuic": 8504300,
+        "name": "Bienne"
+      },
+      "id": "bienne-lausanne",
+      "to": {
+        "bpuic": 8501120,
+        "name": "Lausanne"
+      },
+      "via": null
+    },
+    {
+      "from": {
+        "bpuic": 8501120,
+        "name": "Lausanne"
+      },
+      "id": "lausanne-geneve",
+      "to": {
+        "bpuic": 8501008,
+        "name": "Genève"
+      },
+      "via": null
+    },
+    {
+      "from": {
+        "bpuic": 8501008,
+        "name": "Genève"
+      },
+      "id": "geneve-lausanne",
+      "to": {
+        "bpuic": 8501120,
+        "name": "Lausanne"
+      },
+      "via": null
+    },
+    {
+      "from": {
+        "bpuic": 8501120,
+        "name": "Lausanne"
+      },
+      "id": "lausanne-berne",
+      "to": {
+        "bpuic": 8507000,
+        "name": "Berne"
+      },
+      "via": null
+    },
+    {
+      "from": {
+        "bpuic": 8507000,
+        "name": "Berne"
+      },
+      "id": "berne-zurich-hb",
+      "to": {
+        "bpuic": 8503000,
+        "name": "Zurich HB"
+      },
+      "via": null
+    },
+    {
+      "from": {
+        "bpuic": 8503000,
+        "name": "Zurich HB"
+      },
+      "id": "zurich-hb-berne",
+      "to": {
+        "bpuic": 8507000,
+        "name": "Berne"
+      },
+      "via": null
+    },
+    {
+      "from": {
+        "bpuic": 8500010,
+        "name": "Bâle"
+      },
+      "id": "bale-zurich-hb",
+      "to": {
+        "bpuic": 8503000,
+        "name": "Zurich HB"
+      },
+      "via": null
+    },
+    {
+      "from": {
+        "bpuic": 8503000,
+        "name": "Zurich HB"
+      },
+      "id": "zurich-hb-bale",
+      "to": {
+        "bpuic": 8500010,
+        "name": "Bâle"
+      },
+      "via": null
+    },
+    {
+      "from": {
+        "bpuic": 8507000,
+        "name": "Berne"
+      },
+      "id": "berne-bale",
+      "to": {
+        "bpuic": 8500010,
+        "name": "Bâle"
+      },
+      "via": null
+    },
+    {
+      "from": {
+        "bpuic": 8504100,
+        "name": "Fribourg"
+      },
+      "id": "fribourg-berne",
+      "to": {
+        "bpuic": 8507000,
+        "name": "Berne"
+      },
+      "via": null
+    },
+    {
+      "from": {
+        "bpuic": 8504221,
+        "name": "Neuchâtel"
+      },
+      "id": "neuchatel-berne",
+      "to": {
+        "bpuic": 8507000,
+        "name": "Berne"
+      },
+      "via": null
+    },
+    {
+      "from": {
+        "bpuic": 8504221,
+        "name": "Neuchâtel"
+      },
+      "id": "neuchatel-lausanne",
+      "to": {
+        "bpuic": 8501120,
+        "name": "Lausanne"
+      },
+      "via": null
+    },
+    {
+      "from": {
+        "bpuic": 8504300,
+        "name": "Bienne"
+      },
+      "id": "bienne-zurich-hb",
+      "to": {
+        "bpuic": 8503000,
+        "name": "Zurich HB"
+      },
+      "via": null
+    },
+    {
+      "from": {
+        "bpuic": 8501120,
+        "name": "Lausanne"
+      },
+      "id": "lausanne-sion",
+      "to": {
+        "bpuic": 8501506,
+        "name": "Sion"
+      },
+      "via": null
+    },
+    {
+      "from": {
+        "bpuic": 8501506,
+        "name": "Sion"
+      },
+      "id": "sion-lausanne",
+      "to": {
+        "bpuic": 8501120,
+        "name": "Lausanne"
+      },
+      "via": null
+    },
+    {
+      "from": {
+        "bpuic": 8501008,
+        "name": "Genève"
+      },
+      "id": "geneve-berne",
+      "to": {
+        "bpuic": 8507000,
+        "name": "Berne"
+      },
+      "via": null
+    },
+    {
+      "from": {
+        "bpuic": 8503000,
+        "name": "Zurich HB"
+      },
+      "id": "zurich-hb-lucerne",
+      "to": {
+        "bpuic": 8505000,
+        "name": "Lucerne"
+      },
+      "via": null
+    },
+    {
+      "from": {
+        "bpuic": 8505000,
+        "name": "Lucerne"
+      },
+      "id": "lucerne-zurich-hb",
+      "to": {
+        "bpuic": 8503000,
+        "name": "Zurich HB"
+      },
+      "via": null
+    },
+    {
+      "from": {
+        "bpuic": 8507000,
+        "name": "Berne"
+      },
+      "id": "berne-lucerne",
+      "to": {
+        "bpuic": 8505000,
+        "name": "Lucerne"
+      },
+      "via": null
+    },
+    {
+      "from": {
+        "bpuic": 8504200,
+        "name": "Yverdon"
+      },
+      "id": "yverdon-lausanne",
+      "to": {
+        "bpuic": 8501120,
+        "name": "Lausanne"
+      },
+      "via": null
+    },
+    {
+      "from": {
+        "bpuic": 8501120,
+        "name": "Lausanne"
+      },
+      "id": "lausanne-fribourg",
+      "to": {
+        "bpuic": 8504100,
+        "name": "Fribourg"
+      },
+      "via": null
+    }
+  ]
+}

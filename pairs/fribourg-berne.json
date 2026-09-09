@@ -1,0 +1,1697 @@
+{
+  "from": {
+    "bpuic": 8504100,
+    "name": "Fribourg"
+  },
+  "id": "fribourg-berne",
+  "to": {
+    "bpuic": 8507000,
+    "name": "Berne"
+  },
+  "trains": [
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": -1,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|00:18",
+      "line": "S1",
+      "planned_arr": "00:53",
+      "planned_dep": "00:18"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 8,
+          "dep": 1,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 3,
+          "status": "real"
+        }
+      },
+      "key": "IR15|00:34",
+      "line": "IR15",
+      "planned_arr": "01:00",
+      "planned_dep": "00:34"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 1,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|05:09",
+      "line": "S1",
+      "planned_arr": "05:44",
+      "planned_dep": "05:09"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 3,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 3,
+          "dep": 5,
+          "status": "real"
+        }
+      },
+      "key": "IR15|05:33",
+      "line": "IR15",
+      "planned_arr": "05:56",
+      "planned_dep": "05:33"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 1,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|05:39",
+      "line": "S1",
+      "planned_arr": "06:14",
+      "planned_dep": "05:39"
+    },
+    {
+      "days": {
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|05:42",
+      "line": "S1",
+      "planned_arr": "06:14",
+      "planned_dep": "05:42"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": -1,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 1,
+          "dep": 1,
+          "status": "real"
+        }
+      },
+      "key": "IC1|06:03",
+      "line": "IC1",
+      "planned_arr": "06:26",
+      "planned_dep": "06:03"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|06:12",
+      "line": "S1",
+      "planned_arr": "06:44",
+      "planned_dep": "06:12"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 1,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "RE2|06:26",
+      "line": "RE2",
+      "planned_arr": "06:51",
+      "planned_dep": "06:26"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IR15|06:33",
+      "line": "IR15",
+      "planned_arr": "06:56",
+      "planned_dep": "06:33"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|06:42",
+      "line": "S1",
+      "planned_arr": "07:14",
+      "planned_dep": "06:42"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
+        }
+      },
+      "key": "IC|07:03",
+      "line": "IC",
+      "planned_arr": "07:26",
+      "planned_dep": "07:03"
+    },
+    {
+      "days": {
+        "2026-09-07": {
+          "status": "cancelled"
+        }
+      },
+      "key": "IC1|07:03",
+      "line": "IC1",
+      "planned_arr": "07:26",
+      "planned_dep": "07:03"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|07:12",
+      "line": "S1",
+      "planned_arr": "07:44",
+      "planned_dep": "07:12"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 1,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 1,
+          "dep": 1,
+          "status": "real"
+        }
+      },
+      "key": "RE2|07:26",
+      "line": "RE2",
+      "planned_arr": "07:51",
+      "planned_dep": "07:26"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IR15|07:33",
+      "line": "IR15",
+      "planned_arr": "07:56",
+      "planned_dep": "07:33"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 2,
+          "dep": 3,
+          "status": "real"
+        }
+      },
+      "key": "S1|07:42",
+      "line": "S1",
+      "planned_arr": "08:14",
+      "planned_dep": "07:42"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 1,
+          "dep": 2,
+          "status": "real"
+        }
+      },
+      "key": "IC1|08:03",
+      "line": "IC1",
+      "planned_arr": "08:26",
+      "planned_dep": "08:03"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|08:12",
+      "line": "S1",
+      "planned_arr": "08:44",
+      "planned_dep": "08:12"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 1,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "RE2|08:26",
+      "line": "RE2",
+      "planned_arr": "08:51",
+      "planned_dep": "08:26"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 3,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IR15|08:33",
+      "line": "IR15",
+      "planned_arr": "08:56",
+      "planned_dep": "08:33"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 1,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|08:42",
+      "line": "S1",
+      "planned_arr": "09:14",
+      "planned_dep": "08:42"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": -1,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IC|09:03",
+      "line": "IC",
+      "planned_arr": "09:26",
+      "planned_dep": "09:03"
+    },
+    {
+      "days": {
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IC1|09:03",
+      "line": "IC1",
+      "planned_arr": "09:26",
+      "planned_dep": "09:03"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 1,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|09:12",
+      "line": "S1",
+      "planned_arr": "09:44",
+      "planned_dep": "09:12"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "RE2|09:26",
+      "line": "RE2",
+      "planned_arr": "09:51",
+      "planned_dep": "09:26"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IR15|09:33",
+      "line": "IR15",
+      "planned_arr": "09:56",
+      "planned_dep": "09:33"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 1,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|09:42",
+      "line": "S1",
+      "planned_arr": "10:14",
+      "planned_dep": "09:42"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 2,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": -1,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IC1|10:03",
+      "line": "IC1",
+      "planned_arr": "10:26",
+      "planned_dep": "10:03"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|10:12",
+      "line": "S1",
+      "planned_arr": "10:44",
+      "planned_dep": "10:12"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 1,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "RE2|10:26",
+      "line": "RE2",
+      "planned_arr": "10:51",
+      "planned_dep": "10:26"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IR15|10:33",
+      "line": "IR15",
+      "planned_arr": "10:56",
+      "planned_dep": "10:33"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|10:42",
+      "line": "S1",
+      "planned_arr": "11:14",
+      "planned_dep": "10:42"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 1,
+          "dep": 1,
+          "status": "real"
+        }
+      },
+      "key": "IC|11:03",
+      "line": "IC",
+      "planned_arr": "11:26",
+      "planned_dep": "11:03"
+    },
+    {
+      "days": {
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IC1|11:03",
+      "line": "IC1",
+      "planned_arr": "11:26",
+      "planned_dep": "11:03"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|11:12",
+      "line": "S1",
+      "planned_arr": "11:44",
+      "planned_dep": "11:12"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 2,
+          "dep": 2,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "RE2|11:26",
+      "line": "RE2",
+      "planned_arr": "11:51",
+      "planned_dep": "11:26"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": -1,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IR15|11:33",
+      "line": "IR15",
+      "planned_arr": "11:56",
+      "planned_dep": "11:33"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 1,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|11:42",
+      "line": "S1",
+      "planned_arr": "12:14",
+      "planned_dep": "11:42"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": -1,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": -1,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IC1|12:03",
+      "line": "IC1",
+      "planned_arr": "12:26",
+      "planned_dep": "12:03"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 1,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|12:12",
+      "line": "S1",
+      "planned_arr": "12:44",
+      "planned_dep": "12:12"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 2,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
+        }
+      },
+      "key": "RE2|12:26",
+      "line": "RE2",
+      "planned_arr": "12:51",
+      "planned_dep": "12:26"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 2,
+          "dep": 5,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IR15|12:33",
+      "line": "IR15",
+      "planned_arr": "12:56",
+      "planned_dep": "12:33"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|12:42",
+      "line": "S1",
+      "planned_arr": "13:14",
+      "planned_dep": "12:42"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 2,
+          "status": "real"
+        }
+      },
+      "key": "IC|13:03",
+      "line": "IC",
+      "planned_arr": "13:26",
+      "planned_dep": "13:03"
+    },
+    {
+      "days": {
+        "2026-09-07": {
+          "arr": -1,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IC1|13:03",
+      "line": "IC1",
+      "planned_arr": "13:26",
+      "planned_dep": "13:03"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|13:12",
+      "line": "S1",
+      "planned_arr": "13:44",
+      "planned_dep": "13:12"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 1,
+          "dep": 1,
+          "status": "real"
+        }
+      },
+      "key": "RE2|13:26",
+      "line": "RE2",
+      "planned_arr": "13:51",
+      "planned_dep": "13:26"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": -1,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IR15|13:33",
+      "line": "IR15",
+      "planned_arr": "13:56",
+      "planned_dep": "13:33"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 1,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|13:42",
+      "line": "S1",
+      "planned_arr": "14:14",
+      "planned_dep": "13:42"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
+        }
+      },
+      "key": "IC1|14:03",
+      "line": "IC1",
+      "planned_arr": "14:26",
+      "planned_dep": "14:03"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|14:12",
+      "line": "S1",
+      "planned_arr": "14:44",
+      "planned_dep": "14:12"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 2,
+          "dep": 4,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "RE2|14:26",
+      "line": "RE2",
+      "planned_arr": "14:51",
+      "planned_dep": "14:26"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IR15|14:33",
+      "line": "IR15",
+      "planned_arr": "14:56",
+      "planned_dep": "14:33"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 3,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 1,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|14:42",
+      "line": "S1",
+      "planned_arr": "15:14",
+      "planned_dep": "14:42"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IC|15:03",
+      "line": "IC",
+      "planned_arr": "15:26",
+      "planned_dep": "15:03"
+    },
+    {
+      "days": {
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IC1|15:03",
+      "line": "IC1",
+      "planned_arr": "15:26",
+      "planned_dep": "15:03"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|15:12",
+      "line": "S1",
+      "planned_arr": "15:44",
+      "planned_dep": "15:12"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 1,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "RE2|15:26",
+      "line": "RE2",
+      "planned_arr": "15:51",
+      "planned_dep": "15:26"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IR15|15:33",
+      "line": "IR15",
+      "planned_arr": "15:56",
+      "planned_dep": "15:33"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 1,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|15:42",
+      "line": "S1",
+      "planned_arr": "16:14",
+      "planned_dep": "15:42"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 2,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IC1|16:03",
+      "line": "IC1",
+      "planned_arr": "16:26",
+      "planned_dep": "16:03"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|16:12",
+      "line": "S1",
+      "planned_arr": "16:44",
+      "planned_dep": "16:12"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 1,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "RE2|16:26",
+      "line": "RE2",
+      "planned_arr": "16:51",
+      "planned_dep": "16:26"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
+        }
+      },
+      "key": "IR15|16:33",
+      "line": "IR15",
+      "planned_arr": "16:56",
+      "planned_dep": "16:33"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|16:42",
+      "line": "S1",
+      "planned_arr": "17:14",
+      "planned_dep": "16:42"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "status": "cancelled"
+        }
+      },
+      "key": "IC1|17:03",
+      "line": "IC1",
+      "planned_arr": "17:29",
+      "planned_dep": "17:03"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|17:12",
+      "line": "S1",
+      "planned_arr": "17:44",
+      "planned_dep": "17:12"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "RE2|17:26",
+      "line": "RE2",
+      "planned_arr": "17:51",
+      "planned_dep": "17:26"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": -1,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IR15|17:33",
+      "line": "IR15",
+      "planned_arr": "17:56",
+      "planned_dep": "17:33"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 1,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|17:42",
+      "line": "S1",
+      "planned_arr": "18:14",
+      "planned_dep": "17:42"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IC1|18:03",
+      "line": "IC1",
+      "planned_arr": "18:26",
+      "planned_dep": "18:03"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 2,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|18:12",
+      "line": "S1",
+      "planned_arr": "18:44",
+      "planned_dep": "18:12"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
+        }
+      },
+      "key": "RE2|18:26",
+      "line": "RE2",
+      "planned_arr": "18:51",
+      "planned_dep": "18:26"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": -1,
+          "dep": 1,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 1,
+          "dep": 3,
+          "status": "real"
+        }
+      },
+      "key": "IR15|18:33",
+      "line": "IR15",
+      "planned_arr": "18:56",
+      "planned_dep": "18:33"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|18:42",
+      "line": "S1",
+      "planned_arr": "19:14",
+      "planned_dep": "18:42"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 1,
+          "dep": 2,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 2,
+          "status": "real"
+        }
+      },
+      "key": "IC1|19:03",
+      "line": "IC1",
+      "planned_arr": "19:26",
+      "planned_dep": "19:03"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|19:12",
+      "line": "S1",
+      "planned_arr": "19:44",
+      "planned_dep": "19:12"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 2,
+          "dep": 3,
+          "status": "real"
+        }
+      },
+      "key": "RE2|19:26",
+      "line": "RE2",
+      "planned_arr": "19:51",
+      "planned_dep": "19:26"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 2,
+          "dep": 4,
+          "status": "real"
+        }
+      },
+      "key": "IR15|19:33",
+      "line": "IR15",
+      "planned_arr": "19:56",
+      "planned_dep": "19:33"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|19:42",
+      "line": "S1",
+      "planned_arr": "20:14",
+      "planned_dep": "19:42"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IC1|20:03",
+      "line": "IC1",
+      "planned_arr": "20:26",
+      "planned_dep": "20:03"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": -1,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 1,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|20:12",
+      "line": "S1",
+      "planned_arr": "20:44",
+      "planned_dep": "20:12"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IR15|20:33",
+      "line": "IR15",
+      "planned_arr": "20:56",
+      "planned_dep": "20:33"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|20:42",
+      "line": "S1",
+      "planned_arr": "21:14",
+      "planned_dep": "20:42"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IC1|21:03",
+      "line": "IC1",
+      "planned_arr": "21:26",
+      "planned_dep": "21:03"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|21:12",
+      "line": "S1",
+      "planned_arr": "21:44",
+      "planned_dep": "21:12"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 1,
+          "dep": 2,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": -1,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IR15|21:33",
+      "line": "IR15",
+      "planned_arr": "21:56",
+      "planned_dep": "21:33"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|21:42",
+      "line": "S1",
+      "planned_arr": "22:14",
+      "planned_dep": "21:42"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IC1|22:03",
+      "line": "IC1",
+      "planned_arr": "22:26",
+      "planned_dep": "22:03"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 3,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|22:12",
+      "line": "S1",
+      "planned_arr": "22:44",
+      "planned_dep": "22:12"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": -1,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IR15|22:33",
+      "line": "IR15",
+      "planned_arr": "22:56",
+      "planned_dep": "22:33"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": -1,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|22:42",
+      "line": "S1",
+      "planned_arr": "23:14",
+      "planned_dep": "22:42"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": -1,
+          "dep": 1,
+          "status": "real"
+        }
+      },
+      "key": "IC1|23:03",
+      "line": "IC1",
+      "planned_arr": "23:26",
+      "planned_dep": "23:03"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 1,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|23:12",
+      "line": "S1",
+      "planned_arr": "23:44",
+      "planned_dep": "23:12"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 1,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "S1|23:25",
+      "line": "S1",
+      "planned_arr": "23:52",
+      "planned_dep": "23:25"
+    },
+    {
+      "days": {
+        "2026-09-06": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-07": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IR15|23:33",
+      "line": "IR15",
+      "planned_arr": "23:56",
+      "planned_dep": "23:33"
+    }
+  ],
+  "transfer_min": 2,
+  "via": null
+}
