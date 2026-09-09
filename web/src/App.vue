@@ -236,8 +236,11 @@ const sbbUrl = computed(() =>
       </div>
 
       <span class="footer">
-        Données : opentransportdata.swiss, fichiers Ist-Daten, agrégés chaque nuit. Un train est ponctuel s'il
-        arrive avec moins de 3 minutes de retard.
+        Données :
+        <a href="https://opentransportdata.swiss" target="_blank" rel="noopener">opentransportdata.swiss</a>
+        · Code source sur
+        <a href="https://github.com/Iniddeee/sillon" target="_blank" rel="noopener">GitHub</a>
+        · Ponctuel = moins de 3 minutes de retard à l'arrivée
       </span>
     </template>
   </div>
@@ -581,6 +584,10 @@ const sbbUrl = computed(() =>
 .footer {
   font-size: 12px;
   color: var(--muted);
+}
+
+.footer a {
+  color: inherit;
 }
 
 @media (max-width: 899px) {
