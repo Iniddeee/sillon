@@ -222,8 +222,7 @@ const sbbUrl = computed(() =>
                 @click="selectTrain(n.train)"
               >
                 <span
-                  ><b>{{ n.train.line }} {{ time(n.train.planned_dep) }}</b>
-                  <span class="muted">arrivée {{ time(n.train.planned_arr) }}</span></span
+                  ><b>{{ n.train.line }} {{ time(n.train.planned_dep) }}</b> <span class="muted">arrivée {{ time(n.train.planned_arr) }}</span></span
                 >
                 <span>{{ rateLabel(n.score.rate) }}</span>
               </button>

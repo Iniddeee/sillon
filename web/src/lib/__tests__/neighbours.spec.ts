@@ -74,6 +74,15 @@ describe('neighbours', () => {
   })
 })
 
+function daysOf(total: number, lateCount: number): Record<string, Day> {
+  const result: Record<string, Day> = {}
+  for (let i = 0; i < total; i++) {
+    const date = `2026-09-${String(i + 1).padStart(2, '0')}`
+    result[date] = { status: 'real', dep: 0, arr: i < lateCount ? 5 : 0 }
+  }
+  return result
+}
+
 describe('verdict', () => {
   it('names a neighbour that is at least 5 points more reliable', () => {
     const selected = train('S3|07:04', '07:04', unreliable)
@@ -83,7 +92,23 @@ describe('verdict', () => {
     expect(verdict(selected, ranked)).toBe('Le 07.34 est plus fiable : 100 % contre 40 %.')
   })
 
-  it('says it is already the most reliable when no neighbour beats it by 5 points', () => {
+  it('names a neighbour exactly 5 points more reliable', () => {
+    const selected = train('S3|08:00', '08:00', daysOf(20, 5))
+    const better = train('S3|08:10', '08:10', daysOf(20, 4))
+    const ranked = neighbours([selected, better], selected)
+
+    expect(verdict(selected, ranked)).toBe('Le 08.10 est plus fiable : 80 % contre 75 %.')
+  })
+
+  it('says neighbours do about the same when the best beats it by less than 5 points', () => {
+    const selected = train('S3|08:00', '08:00', daysOf(25, 5))
+    const similar = train('S3|08:10', '08:10', daysOf(25, 4))
+    const ranked = neighbours([selected, similar], selected)
+
+    expect(verdict(selected, ranked)).toBe('Ses voisins font à peu près pareil.')
+  })
+
+  it('says it is already the most reliable when no neighbour has a better rate', () => {
     const selected = train('S3|08:00', '08:00', reliable)
     const similar = train('S3|08:10', '08:10', reliable)
     const ranked = neighbours([selected, similar], selected)
