@@ -8,6 +8,12 @@ __pycache__/
 # Node
 node_modules/
 dist/
+coverage/
+*.log
+*.local
+*.tsbuildinfo
+.eslintcache
+*.timestamp-*-*.mjs
 
 # Downloaded istdaten files
 pipeline/tmp/
