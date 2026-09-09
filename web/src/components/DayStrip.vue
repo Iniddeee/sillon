@@ -1,18 +1,39 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-import type { DayEntry } from '@/lib/data'
+import type { DayEntry, Station, Train } from '@/lib/data'
+import { missed } from '@/lib/score'
 
-const props = defineProps<{ days: DayEntry[] }>()
+const props = defineProps<{
+  days: DayEntry[]
+  train?: Train
+  transferMin?: number
+  via?: Station | null
+}>()
 
 const SIZE = 10
 const GAP = 2
 const STEP = SIZE + GAP
 const COLS = 30
 
+function isMissed(day: DayEntry): boolean {
+  return props.train !== undefined && missed(props.train, day, props.transferMin ?? 0)
+}
+
 function fill(day: DayEntry): string {
   if (day.status === 'cancelled') return '#e2231a'
   if (day.status === 'nodata') return 'transparent'
+  if (isMissed(day)) return '#ffcc00'
   return (day.arr ?? 0) >= 3 ? '#ffcc00' : '#ffffff'
+}
+
+function stroke(day: DayEntry): string {
+  if (isMissed(day)) return '#e2231a'
+  if (day.status === 'nodata') return 'rgba(255,255,255,.5)'
+  return 'none'
+}
+
+function strokeWidth(day: DayEntry): number {
+  return isMissed(day) ? 2 : 1
 }
 
 function formatDate(iso: string): string {
@@ -24,6 +45,11 @@ function label(day: DayEntry): string {
   const date = formatDate(day.date)
   if (day.status === 'cancelled') return `${date} — supprimé`
   if (day.status === 'nodata') return `${date} — pas de donnée`
+  if (isMissed(day)) {
+    const by = day.legs?.[0].arr ?? 0
+    const at = props.via?.name ?? 'la correspondance'
+    return `${date} — correspondance ratée (+${by} min à ${at})`
+  }
   const arr = day.arr ?? 0
   return arr >= 3 ? `${date} — retard ${arr} min` : `${date} — à l'heure`
 }
@@ -55,8 +81,10 @@ const viewBox = computed(() => `0 0 ${COLS * STEP - GAP} ${rows.value * STEP - G
       :width="SIZE"
       :height="SIZE"
       :fill="fill(day)"
-      :stroke="day.status === 'nodata' ? 'rgba(255,255,255,.5)' : 'none'"
+      :stroke="stroke(day)"
+      :stroke-width="strokeWidth(day)"
       :data-status="day.status"
+      :data-missed="isMissed(day)"
     >
       <title>{{ label(day) }}</title>
     </rect>

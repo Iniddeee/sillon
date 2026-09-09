@@ -328,3 +328,11 @@ BETRIEBSTAG;FAHRT_BEZEICHNER;BETREIBER_ID;BETREIBER_ABK;BETREIBER_NAME;PRODUKT_I
 07.09.2026;ch:1:sjyid:100001:978-001;85:11;SBB;Schweizerische Bundesbahnen SBB;Zug;978;IC6;;IC;false;false;8500010;Basel SBB;07.09.2026 18:00;07.09.2026 18:00:58;REAL;;;;false;ch:1:sloid:10
 07.09.2026;ch:1:sjyid:100001:982-001;85:11;SBB;Schweizerische Bundesbahnen SBB;Zug;982;IC6;;IC;false;false;8507000;Bern;07.09.2026 18:53;07.09.2026 18:56:04;REAL;07.09.2026 19:04;07.09.2026 19:04:56;REAL;false;ch:1:sloid:7000
 07.09.2026;ch:1:sjyid:100001:982-001;85:11;SBB;Schweizerische Bundesbahnen SBB;Zug;982;IC6;;IC;false;false;8500010;Basel SBB;07.09.2026 20:00;07.09.2026 19:59:39;REAL;;;;false;ch:1:sloid:10
+07.09.2026;ch:1:sjyid:100001:1610-001;85:11;SBB;Schweizerische Bundesbahnen SBB;Zug;1610;IC51;;IC;false;false;8504300;Biel/Bienne;07.09.2026 07:41;07.09.2026 07:42:28;REAL;07.09.2026 07:48;07.09.2026 07:48:25;REAL;false;ch:1:sloid:4300
+07.09.2026;ch:1:sjyid:100001:1610-001;85:11;SBB;Schweizerische Bundesbahnen SBB;Zug;1610;IC51;;IC;false;false;8501120;Lausanne;07.09.2026 08:56;07.09.2026 08:56:21;REAL;;;;false;ch:1:sloid:1120
+07.09.2026;ch:1:sjyid:100001:1616-001;85:11;SBB;Schweizerische Bundesbahnen SBB;Zug;1616;IC51;;IC;false;false;8504300;Biel/Bienne;07.09.2026 10:41;07.09.2026 10:40:50;REAL;07.09.2026 10:48;07.09.2026 10:48:47;REAL;false;ch:1:sloid:4300
+07.09.2026;ch:1:sjyid:100001:1616-001;85:11;SBB;Schweizerische Bundesbahnen SBB;Zug;1616;IC51;;IC;false;false;8501120;Lausanne;07.09.2026 11:56;07.09.2026 11:56:28;REAL;;;;false;ch:1:sloid:1120
+07.09.2026;ch:1:sjyid:100001:4560-002;85:11;SBB;Schweizerische Bundesbahnen SBB;Zug;4560;RE56;;RE;false;false;8504300;Biel/Bienne;07.09.2026 10:11;07.09.2026 10:13:35;REAL;;;;false;ch:1:sloid:4300
+07.09.2026;ch:1:sjyid:100015:1853-001;85:33;BLS-bls;BLS AG (bls);Zug;1853;IR56;;IR;false;false;8500010;Basel SBB;07.09.2026 06:56;07.09.2026 06:55:03;REAL;;;;false;ch:1:sloid:10
+07.09.2026;ch:1:sjyid:100001:1614-001;85:11;SBB;Schweizerische Bundesbahnen SBB;Zug;1614;IC51;;IC;false;false;8504300;Biel/Bienne;07.09.2026 09:41;07.09.2026 09:40:55;REAL;07.09.2026 09:48;07.09.2026 09:49:25;REAL;false;ch:1:sloid:4300
+07.09.2026;ch:1:sjyid:100001:1614-001;85:11;SBB;Schweizerische Bundesbahnen SBB;Zug;1614;IC51;;IC;false;false;8501120;Lausanne;07.09.2026 10:56;07.09.2026 10:55:21;REAL;;;;false;ch:1:sloid:1120

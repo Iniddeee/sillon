@@ -22,6 +22,7 @@ export interface Day {
   status: DayStatus
   dep?: number
   arr?: number
+  legs?: [{ arr: number }, { dep: number }]
 }
 
 export interface Train {
@@ -29,6 +30,9 @@ export interface Train {
   line: string
   planned_dep: string
   planned_arr: string
+  line2?: string
+  via_arr?: string
+  via_dep?: string
   days: Record<string, Day>
 }
 

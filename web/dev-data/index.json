@@ -66,6 +66,21 @@
         "name": "Lausanne"
       },
       "via": null
+    },
+    {
+      "from": {
+        "bpuic": 8500109,
+        "name": "Delémont"
+      },
+      "id": "delemont-bienne-lausanne",
+      "to": {
+        "bpuic": 8501120,
+        "name": "Lausanne"
+      },
+      "via": {
+        "bpuic": 8504300,
+        "name": "Bienne/Biel"
+      }
     }
   ]
 }

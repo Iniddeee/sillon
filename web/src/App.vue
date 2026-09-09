@@ -63,6 +63,12 @@ function selectTrain(train: Train) {
           </svg>
           pas de donnée
         </span>
+        <span v-if="pairData?.via" class="legend-item">
+          <svg width="10" height="10" aria-hidden="true">
+            <rect width="10" height="10" fill="#ffcc00" stroke="#e2231a" stroke-width="2" />
+          </svg>
+          correspondance ratée
+        </span>
       </p>
 
       <DepartureBoard

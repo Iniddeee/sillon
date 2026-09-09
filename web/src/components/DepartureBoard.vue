@@ -18,6 +18,8 @@ const trains = computed(() =>
       :key="train.key"
       :train="train"
       :selected="train.key === selectedKey"
+      :transfer-min="pair.transfer_min"
+      :via="pair.via"
       @click="$emit('select', train)"
     />
   </div>
