@@ -1,0 +1,71 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pipeline:
+    name: pipeline
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        if: hashFiles('pipeline/pyproject.toml') != ''
+        with:
+          python-version: '3.12'
+
+      - name: Install
+        if: hashFiles('pipeline/pyproject.toml') != ''
+        working-directory: pipeline
+        run: pip install -e '.[dev]'
+
+      - name: Lint
+        if: hashFiles('pipeline/pyproject.toml') != ''
+        working-directory: pipeline
+        run: ruff check .
+
+      - name: Test
+        if: hashFiles('pipeline/pyproject.toml') != ''
+        working-directory: pipeline
+        run: pytest
+
+  web:
+    name: web
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        if: hashFiles('web/package.json') != ''
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Install
+        if: hashFiles('web/package.json') != ''
+        working-directory: web
+        run: npm ci
+
+      - name: Lint
+        if: hashFiles('web/package.json') != ''
+        working-directory: web
+        run: npm run lint
+
+      - name: Test
+        if: hashFiles('web/package.json') != ''
+        working-directory: web
+        run: npm test -- --run
+
+      - name: Build
+        if: hashFiles('web/package.json') != ''
+        working-directory: web
+        run: npm run build
