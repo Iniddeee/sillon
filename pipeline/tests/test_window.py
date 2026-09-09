@@ -3,6 +3,7 @@ from datetime import date, timedelta
 from pathlib import Path
 
 from sillon import cli
+from sillon.extract import extract
 from sillon.window import day_record, merge, write_json
 
 FIXTURE = Path(__file__).parent / "fixtures" / "sample_istdaten.csv"
@@ -31,6 +32,20 @@ def _train(dep_delay=0, arr_delay=0, status="REAL", cancelled=False, **overrides
     return train
 
 
+def _itinerary(via_arr_status="REAL", via_dep_status="REAL", **overrides):
+    train = _train(
+        line2="IC5",
+        via_arr="07:51",
+        via_dep="08:02",
+        via_arr_delay=1,
+        via_arr_status=via_arr_status,
+        via_dep_delay=0,
+        via_dep_status=via_dep_status,
+    )
+    train.update(overrides)
+    return train
+
+
 def test_day_record_real():
     assert day_record(_train(dep_delay=1, arr_delay=2)) == {"status": "real", "dep": 1, "arr": 2}
 
@@ -42,6 +57,20 @@ def test_day_record_cancelled():
 def test_day_record_nodata_when_one_status_not_real():
     train = _train(status="REAL", arr_status="PROGNOSE")
     assert day_record(train) == {"status": "nodata"}
+
+
+def test_day_record_legs_present_when_both_via_statuses_real():
+    record = day_record(_itinerary())
+    assert record["legs"] == [{"arr": 1}, {"dep": 0}]
+
+
+def test_day_record_legs_absent_when_a_via_status_is_not_real():
+    record = day_record(_itinerary(via_dep_status="PROGNOSE"))
+    assert "legs" not in record
+
+
+def test_day_record_legs_absent_for_a_direct_train():
+    assert "legs" not in day_record(_train())
 
 
 def test_window_slides_past_max_days():
@@ -95,6 +124,23 @@ def test_write_json_is_byte_identical_across_writes(tmp_path):
 
     assert first == second
     assert first.endswith(b"\n")
+
+
+def test_merge_carries_itinerary_fields_and_legs_for_a_day():
+    via_pair = {
+        "id": "delemont-bienne-lausanne",
+        "from": {"bpuic": 8500109, "name": "Delémont"},
+        "to": {"bpuic": 8501120, "name": "Lausanne"},
+        "via": {"bpuic": 8504300, "name": "Bienne"},
+    }
+    trains = extract(FIXTURE, [via_pair])["delemont-bienne-lausanne"]
+    state = merge(via_pair, date(2026, 9, 7), trains, None)
+
+    train = next(t for t in state["trains"] if t["key"] == "RE56|09:41")
+    assert train["line2"] == "IC51"
+    assert train["via_arr"] == "10:11"
+    assert train["via_dep"] == "10:48"
+    assert train["days"]["2026-09-07"]["legs"] == [{"arr": 2}, {"dep": 0}]
 
 
 def test_run_end_to_end(tmp_path, monkeypatch):

@@ -7,7 +7,10 @@ def day_record(train: dict) -> dict:
     if train["cancelled"]:
         return {"status": "cancelled"}
     if train["dep_status"] == "REAL" and train["arr_status"] == "REAL":
-        return {"status": "real", "dep": train["dep_delay"], "arr": train["arr_delay"]}
+        record = {"status": "real", "dep": train["dep_delay"], "arr": train["arr_delay"]}
+        if train.get("via_arr_status") == "REAL" and train.get("via_dep_status") == "REAL":
+            record["legs"] = [{"arr": train["via_arr_delay"]}, {"dep": train["via_dep_delay"]}]
+        return record
     return {"status": "nodata"}
 
 
@@ -38,6 +41,10 @@ def merge(
             },
         )
         entry["planned_arr"] = train["planned_arr"]
+        if "line2" in train:
+            entry["line2"] = train["line2"]
+            entry["via_arr"] = train["via_arr"]
+            entry["via_dep"] = train["via_dep"]
         entry["days"][day_str] = day_record(train)
 
     # window is per pair, not per train: a train quiet for a while still ages

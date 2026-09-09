@@ -148,5 +148,17 @@
     "from": { "bpuic": 8501120, "name": "Lausanne" },
     "to": { "bpuic": 8504100, "name": "Fribourg" },
     "via": null
+  },
+  {
+    "id": "delemont-bienne-lausanne",
+    "from": { "bpuic": 8500109, "name": "Delémont" },
+    "to": { "bpuic": 8501120, "name": "Lausanne" },
+    "via": { "bpuic": 8504300, "name": "Bienne" }
+  },
+  {
+    "id": "porrentruy-delemont-bale",
+    "from": { "bpuic": 8500126, "name": "Porrentruy" },
+    "to": { "bpuic": 8500010, "name": "Bâle" },
+    "via": { "bpuic": 8500109, "name": "Delémont" }
   }
 ]

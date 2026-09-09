@@ -1,16 +1,17 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-import type { Train } from '@/lib/data'
+import type { Station, Train } from '@/lib/data'
 import { trainDays } from '@/lib/data'
 import { score } from '@/lib/score'
 import DayStrip from './DayStrip.vue'
 
-const props = defineProps<{ train: Train; selected: boolean }>()
+const props = defineProps<{ train: Train; selected: boolean; transferMin: number; via: Station | null }>()
 defineEmits<{ click: [] }>()
 
 const days = computed(() => trainDays(props.train))
-const s = computed(() => score(props.train))
+const s = computed(() => score(props.train, props.transferMin))
 const whiteBadge = computed(() => props.train.line.startsWith('S'))
+const whiteBadge2 = computed(() => props.train.line2?.startsWith('S') ?? false)
 
 function time(hhmm: string): string {
   return hhmm.replace(':', '.')
@@ -23,7 +24,21 @@ function rateLabel(rate: number | null): string {
 
 <template>
   <button class="row" :class="{ selected: props.selected }" type="button" @click="$emit('click')">
-    <span class="line">
+    <span v-if="train.line2" class="line itinerary">
+      <span class="badge" :class="{ white: whiteBadge }">{{ train.line }}</span>
+      <span class="time">{{ time(train.planned_dep) }}</span>
+      <span class="arrow">→</span>
+      <span class="via">{{ via?.name }} {{ time(train.via_arr!) }}</span>
+      <span class="arrow">→</span>
+      <span class="badge" :class="{ white: whiteBadge2 }">{{ train.line2 }}</span>
+      <span class="time small">{{ time(train.via_dep!) }}</span>
+      <span class="arrow">→</span>
+      <span class="time">{{ time(train.planned_arr) }}</span>
+      <span class="rate" :class="{ warn: s.rate !== null && s.rate < 0.9 }">{{
+        rateLabel(s.rate)
+      }}</span>
+    </span>
+    <span v-else class="line">
       <span class="badge" :class="{ white: whiteBadge }">{{ train.line }}</span>
       <span class="time">{{ time(train.planned_dep) }}</span>
       <span class="arrow">→</span>
@@ -32,7 +47,7 @@ function rateLabel(rate: number | null): string {
         rateLabel(s.rate)
       }}</span>
     </span>
-    <DayStrip class="strip" :days="days" />
+    <DayStrip class="strip" :days="days" :train="train" :transfer-min="transferMin" :via="via" />
   </button>
 </template>
 
@@ -81,6 +96,16 @@ function rateLabel(rate: number | null): string {
 .time {
   font-weight: 700;
   font-size: 1.3rem;
+}
+
+.time.small {
+  font-size: 1rem;
+  opacity: 0.85;
+}
+
+.via {
+  font-size: 0.8rem;
+  opacity: 0.7;
 }
 
 .arrow {
