@@ -1,0 +1,152 @@
+[
+  {
+    "id": "delemont-porrentruy",
+    "from": { "bpuic": 8500109, "name": "Delémont" },
+    "to": { "bpuic": 8500126, "name": "Porrentruy" },
+    "via": null
+  },
+  {
+    "id": "porrentruy-delemont",
+    "from": { "bpuic": 8500126, "name": "Porrentruy" },
+    "to": { "bpuic": 8500109, "name": "Delémont" },
+    "via": null
+  },
+  {
+    "id": "delemont-bale",
+    "from": { "bpuic": 8500109, "name": "Delémont" },
+    "to": { "bpuic": 8500010, "name": "Bâle" },
+    "via": null
+  },
+  {
+    "id": "delemont-bienne",
+    "from": { "bpuic": 8500109, "name": "Delémont" },
+    "to": { "bpuic": 8504300, "name": "Bienne" },
+    "via": null
+  },
+  {
+    "id": "bienne-lausanne",
+    "from": { "bpuic": 8504300, "name": "Bienne" },
+    "to": { "bpuic": 8501120, "name": "Lausanne" },
+    "via": null
+  },
+  {
+    "id": "lausanne-geneve",
+    "from": { "bpuic": 8501120, "name": "Lausanne" },
+    "to": { "bpuic": 8501008, "name": "Genève" },
+    "via": null
+  },
+  {
+    "id": "geneve-lausanne",
+    "from": { "bpuic": 8501008, "name": "Genève" },
+    "to": { "bpuic": 8501120, "name": "Lausanne" },
+    "via": null
+  },
+  {
+    "id": "lausanne-berne",
+    "from": { "bpuic": 8501120, "name": "Lausanne" },
+    "to": { "bpuic": 8507000, "name": "Berne" },
+    "via": null
+  },
+  {
+    "id": "berne-zurich-hb",
+    "from": { "bpuic": 8507000, "name": "Berne" },
+    "to": { "bpuic": 8503000, "name": "Zurich HB" },
+    "via": null
+  },
+  {
+    "id": "zurich-hb-berne",
+    "from": { "bpuic": 8503000, "name": "Zurich HB" },
+    "to": { "bpuic": 8507000, "name": "Berne" },
+    "via": null
+  },
+  {
+    "id": "bale-zurich-hb",
+    "from": { "bpuic": 8500010, "name": "Bâle" },
+    "to": { "bpuic": 8503000, "name": "Zurich HB" },
+    "via": null
+  },
+  {
+    "id": "zurich-hb-bale",
+    "from": { "bpuic": 8503000, "name": "Zurich HB" },
+    "to": { "bpuic": 8500010, "name": "Bâle" },
+    "via": null
+  },
+  {
+    "id": "berne-bale",
+    "from": { "bpuic": 8507000, "name": "Berne" },
+    "to": { "bpuic": 8500010, "name": "Bâle" },
+    "via": null
+  },
+  {
+    "id": "fribourg-berne",
+    "from": { "bpuic": 8504100, "name": "Fribourg" },
+    "to": { "bpuic": 8507000, "name": "Berne" },
+    "via": null
+  },
+  {
+    "id": "neuchatel-berne",
+    "from": { "bpuic": 8504221, "name": "Neuchâtel" },
+    "to": { "bpuic": 8507000, "name": "Berne" },
+    "via": null
+  },
+  {
+    "id": "neuchatel-lausanne",
+    "from": { "bpuic": 8504221, "name": "Neuchâtel" },
+    "to": { "bpuic": 8501120, "name": "Lausanne" },
+    "via": null
+  },
+  {
+    "id": "bienne-zurich-hb",
+    "from": { "bpuic": 8504300, "name": "Bienne" },
+    "to": { "bpuic": 8503000, "name": "Zurich HB" },
+    "via": null
+  },
+  {
+    "id": "lausanne-sion",
+    "from": { "bpuic": 8501120, "name": "Lausanne" },
+    "to": { "bpuic": 8501506, "name": "Sion" },
+    "via": null
+  },
+  {
+    "id": "sion-lausanne",
+    "from": { "bpuic": 8501506, "name": "Sion" },
+    "to": { "bpuic": 8501120, "name": "Lausanne" },
+    "via": null
+  },
+  {
+    "id": "geneve-berne",
+    "from": { "bpuic": 8501008, "name": "Genève" },
+    "to": { "bpuic": 8507000, "name": "Berne" },
+    "via": null
+  },
+  {
+    "id": "zurich-hb-lucerne",
+    "from": { "bpuic": 8503000, "name": "Zurich HB" },
+    "to": { "bpuic": 8505000, "name": "Lucerne" },
+    "via": null
+  },
+  {
+    "id": "lucerne-zurich-hb",
+    "from": { "bpuic": 8505000, "name": "Lucerne" },
+    "to": { "bpuic": 8503000, "name": "Zurich HB" },
+    "via": null
+  },
+  {
+    "id": "berne-lucerne",
+    "from": { "bpuic": 8507000, "name": "Berne" },
+    "to": { "bpuic": 8505000, "name": "Lucerne" },
+    "via": null
+  },
+  {
+    "id": "yverdon-lausanne",
+    "from": { "bpuic": 8504200, "name": "Yverdon" },
+    "to": { "bpuic": 8501120, "name": "Lausanne" },
+    "via": null
+  },
+  {
+    "id": "lausanne-fribourg",
+    "from": { "bpuic": 8501120, "name": "Lausanne" },
+    "to": { "bpuic": 8504100, "name": "Fribourg" },
+    "via": null
+  }
+]

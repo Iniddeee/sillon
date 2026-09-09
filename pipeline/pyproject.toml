@@ -28,3 +28,6 @@ line-length = 100
 
 [tool.ruff.lint]
 extend-select = ["I"]
+# istdaten timestamps have no offset and are all local Swiss time; naive
+# datetimes are correct here, not an oversight
+ignore = ["DTZ007"]
