@@ -55,11 +55,15 @@ export function verdict(selected: Train, ranked: Ranked[], transferMin = 2): str
   const best = ranked[0]!
   const ownRate = score(selected, transferMin).rate
 
-  if (best.score.rate !== null && ownRate !== null && best.score.rate - ownRate >= 0.05) {
-    const time = best.train.planned_dep.replace(':', '.')
+  if (best.score.rate !== null && ownRate !== null) {
+    // compare the percentages people see, so the wording never contradicts the numbers
     const bestPct = Math.round(best.score.rate * 100)
     const ownPct = Math.round(ownRate * 100)
-    return `Le ${time} est plus fiable : ${bestPct} % contre ${ownPct} %.`
+    if (bestPct - ownPct >= 5) {
+      const time = best.train.planned_dep.replace(':', '.')
+      return `Le ${time} est plus fiable : ${bestPct} % contre ${ownPct} %.`
+    }
+    if (bestPct > ownPct) return 'Ses voisins font à peu près pareil.'
   }
 
   return "C'est le plus fiable de sa tranche horaire."
