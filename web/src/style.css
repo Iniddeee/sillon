@@ -1,0 +1,24 @@
+:root {
+  --blue: #2029b6;
+  --white: #ffffff;
+  --yellow: #ffcc00;
+  --red: #e2231a;
+  --hairline: rgba(255, 255, 255, 0.25);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  background: var(--blue);
+  color: var(--white);
+  font-family: 'Roboto Condensed', sans-serif;
+  font-variant-numeric: tabular-nums;
+}
