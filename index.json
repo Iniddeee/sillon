@@ -49,9 +49,10 @@
     "2026-09-05",
     "2026-09-06",
     "2026-09-07",
-    "2026-09-08"
+    "2026-09-08",
+    "2026-09-09"
   ],
-  "generated": "2026-09-09",
+  "generated": "2026-09-10",
   "pairs": [
     {
       "from": {
@@ -352,6 +353,36 @@
         "name": "Fribourg"
       },
       "via": null
+    },
+    {
+      "from": {
+        "bpuic": 8500109,
+        "name": "Delémont"
+      },
+      "id": "delemont-bienne-lausanne",
+      "to": {
+        "bpuic": 8501120,
+        "name": "Lausanne"
+      },
+      "via": {
+        "bpuic": 8504300,
+        "name": "Bienne"
+      }
+    },
+    {
+      "from": {
+        "bpuic": 8500126,
+        "name": "Porrentruy"
+      },
+      "id": "porrentruy-delemont-bale",
+      "to": {
+        "bpuic": 8500010,
+        "name": "Bâle"
+      },
+      "via": {
+        "bpuic": 8500109,
+        "name": "Delémont"
+      }
     }
   ]
 }
