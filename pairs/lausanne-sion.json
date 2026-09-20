@@ -305,6 +305,9 @@
         },
         "2026-09-18": {
           "status": "cancelled"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR95|00:14",
@@ -720,12 +723,26 @@
           "arr": 0,
           "dep": 2,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR95|05:04",
       "line": "IR95",
       "planned_arr": "06:19",
       "planned_dep": "05:04"
+    },
+    {
+      "days": {
+        "2026-09-19": {
+          "status": "cancelled"
+        }
+      },
+      "key": "IR90|05:41",
+      "line": "IR90",
+      "planned_arr": "06:49",
+      "planned_dep": "05:41"
     },
     {
       "days": {
@@ -1318,6 +1335,9 @@
           "arr": 0,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "EC|06:10",
@@ -1632,6 +1652,9 @@
           "arr": 0,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR95|06:14",
@@ -1688,6 +1711,9 @@
           "arr": -1,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR90|06:47",
@@ -2262,6 +2288,9 @@
           "arr": 0,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR95|07:14",
@@ -2300,6 +2329,9 @@
           "arr": 1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR90|07:47",
@@ -2842,6 +2874,9 @@
         },
         "2026-09-18": {
           "status": "cancelled"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "EC|08:10",
@@ -3146,6 +3181,9 @@
           "arr": -1,
           "dep": 5,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR95|08:14",
@@ -3184,6 +3222,9 @@
           "arr": -1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR90|08:47",
@@ -3764,6 +3805,9 @@
           "arr": -1,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR95|09:14",
@@ -3802,6 +3846,9 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR90|09:47",
@@ -4382,6 +4429,9 @@
           "arr": -1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR95|10:14",
@@ -4420,6 +4470,9 @@
           "arr": -1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR90|10:47",
@@ -5000,6 +5053,9 @@
           "arr": -1,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR95|11:14",
@@ -5036,6 +5092,9 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR90|11:47",
@@ -5614,6 +5673,9 @@
         },
         "2026-09-18": {
           "status": "cancelled"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR95|12:14",
@@ -5652,6 +5714,9 @@
           "arr": -1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR90|12:47",
@@ -6228,6 +6293,9 @@
           "arr": -2,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR95|13:14",
@@ -6266,6 +6334,9 @@
           "arr": 0,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR90|13:47",
@@ -6814,6 +6885,9 @@
         },
         "2026-09-18": {
           "status": "cancelled"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "EC|14:10",
@@ -7118,6 +7192,9 @@
           "arr": 1,
           "dep": 5,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR95|14:14",
@@ -7154,6 +7231,9 @@
           "arr": -1,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR90|14:47",
@@ -7726,6 +7806,9 @@
           "arr": -1,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR95|15:14",
@@ -7762,6 +7845,9 @@
           "arr": -1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR90|15:47",
@@ -8334,6 +8420,9 @@
           "arr": 0,
           "dep": 3,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR95|16:14",
@@ -8370,6 +8459,9 @@
           "arr": -1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR90|16:47",
@@ -8944,6 +9036,9 @@
           "arr": -1,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR95|17:14",
@@ -9140,6 +9235,9 @@
           "arr": -1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR90|17:47",
@@ -9724,6 +9822,9 @@
           "arr": 1,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR95|18:14",
@@ -9762,6 +9863,9 @@
           "arr": 0,
           "dep": 2,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR90|18:47",
@@ -10306,6 +10410,9 @@
         },
         "2026-09-18": {
           "status": "cancelled"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "EC|19:10",
@@ -10608,6 +10715,9 @@
           "arr": 7,
           "dep": 8,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR95|19:14",
@@ -10646,6 +10756,9 @@
           "arr": 0,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR90|19:47",
@@ -11220,6 +11333,9 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR95|20:14",
@@ -11258,6 +11374,9 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR90|20:47",
@@ -11836,6 +11955,9 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR95|21:14",
@@ -11859,6 +11981,9 @@
           "arr": 6,
           "dep": 2,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR90|21:47",
@@ -12468,6 +12593,9 @@
         },
         "2026-09-18": {
           "status": "cancelled"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR95|22:14",
@@ -12493,6 +12621,9 @@
           "status": "real"
         },
         "2026-09-18": {
+          "status": "cancelled"
+        },
+        "2026-09-19": {
           "status": "cancelled"
         }
       },
@@ -13075,6 +13206,9 @@
         },
         "2026-09-18": {
           "status": "cancelled"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR95|23:14",
@@ -13119,6 +13253,9 @@
           "status": "cancelled"
         },
         "2026-09-18": {
+          "status": "cancelled"
+        },
+        "2026-09-19": {
           "status": "cancelled"
         }
       },

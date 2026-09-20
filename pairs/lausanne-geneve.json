@@ -302,6 +302,9 @@
           "arr": -1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "RE33|00:00",
@@ -394,6 +397,9 @@
           "arr": 1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR90|00:16",
@@ -704,6 +710,9 @@
           "arr": 0,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "RE33|00:30",
@@ -806,6 +815,9 @@
           "arr": 1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "RE33|00:50",
@@ -872,6 +884,9 @@
         },
         "2026-09-18": {
           "status": "nodata"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "RE33|01:50",
@@ -950,6 +965,9 @@
         },
         "2026-09-18": {
           "status": "nodata"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "RE33|02:50",
@@ -1065,6 +1083,11 @@
         "2026-09-12": {
           "arr": 0,
           "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 1,
+          "dep": 9,
           "status": "real"
         }
       },
@@ -1378,11 +1401,16 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 1,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "RE33|03:50",
       "line": "RE33",
-      "planned_arr": "04:44",
+      "planned_arr": "04:42",
       "planned_dep": "03:50"
     },
     {
@@ -1703,6 +1731,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": -2,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "RE33|04:48",
@@ -1997,6 +2030,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "RE33|05:30",
@@ -2262,6 +2300,11 @@
           "status": "real"
         },
         "2026-09-18": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
           "arr": 0,
           "dep": 0,
           "status": "real"
@@ -2557,6 +2600,11 @@
           "arr": 3,
           "dep": 7,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "RE33|06:00",
@@ -2613,11 +2661,16 @@
           "arr": 0,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 2,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "IR|06:15",
       "line": "IR",
-      "planned_arr": "07:03",
+      "planned_arr": "06:55",
       "planned_dep": "06:15"
     },
     {
@@ -3169,6 +3222,11 @@
           "arr": -1,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IR15|06:23",
@@ -3467,6 +3525,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 6,
+          "dep": 6,
+          "status": "real"
         }
       },
       "key": "RE33|06:30",
@@ -3640,6 +3703,11 @@
         "2026-09-18": {
           "arr": 1,
           "dep": 3,
+          "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 4,
+          "dep": 0,
           "status": "real"
         }
       },
@@ -3890,6 +3958,11 @@
         "2026-09-18": {
           "arr": 1,
           "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 2,
           "status": "real"
         }
       },
@@ -4345,6 +4418,11 @@
           "arr": 0,
           "dep": 2,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "RE33|07:00",
@@ -4569,11 +4647,16 @@
           "arr": 0,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": -1,
+          "dep": 2,
+          "status": "real"
         }
       },
       "key": "IR90|07:15",
       "line": "IR90",
-      "planned_arr": "08:03",
+      "planned_arr": "07:55",
       "planned_dep": "07:15"
     },
     {
@@ -5133,11 +5216,16 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": -1,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IR15|07:23",
       "line": "IR15",
-      "planned_arr": "08:07",
+      "planned_arr": "08:05",
       "planned_dep": "07:23"
     },
     {
@@ -5465,6 +5553,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 14,
+          "dep": 7,
+          "status": "real"
         }
       },
       "key": "RE33|07:30",
@@ -5680,6 +5773,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 1,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "IC1|07:46",
@@ -5864,6 +5962,11 @@
         },
         "2026-09-18": {
           "arr": 1,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 3,
           "dep": 0,
           "status": "real"
         }
@@ -6151,6 +6254,11 @@
         "2026-09-18": {
           "arr": 0,
           "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 4,
+          "dep": 1,
           "status": "real"
         }
       },
@@ -6602,6 +6710,11 @@
           "arr": 0,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 2,
+          "status": "real"
         }
       },
       "key": "RE33|08:00",
@@ -6668,11 +6781,16 @@
           "arr": 1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 2,
+          "dep": 5,
+          "status": "real"
         }
       },
       "key": "IR90|08:15",
       "line": "IR90",
-      "planned_arr": "09:03",
+      "planned_arr": "08:55",
       "planned_dep": "08:15"
     },
     {
@@ -7228,6 +7346,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": -1,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IR15|08:23",
@@ -7524,6 +7647,11 @@
           "arr": 0,
           "dep": 2,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "RE33|08:30",
@@ -7697,6 +7825,11 @@
         "2026-09-18": {
           "arr": -1,
           "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 1,
+          "dep": 1,
           "status": "real"
         }
       },
@@ -7947,6 +8080,11 @@
         "2026-09-18": {
           "arr": -1,
           "dep": 1,
+          "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 2,
           "status": "real"
         }
       },
@@ -8398,6 +8536,11 @@
           "arr": 0,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "RE33|09:00",
@@ -8462,11 +8605,16 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "IR90|09:15",
       "line": "IR90",
-      "planned_arr": "10:03",
+      "planned_arr": "09:55",
       "planned_dep": "09:15"
     },
     {
@@ -9024,6 +9172,11 @@
           "arr": 1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": -1,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IR15|09:23",
@@ -9322,6 +9475,11 @@
           "arr": 0,
           "dep": 2,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": -1,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "RE33|09:30",
@@ -9494,6 +9652,11 @@
         },
         "2026-09-18": {
           "arr": 2,
+          "dep": 1,
+          "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
           "dep": 1,
           "status": "real"
         }
@@ -9742,6 +9905,11 @@
         },
         "2026-09-18": {
           "status": "cancelled"
+        },
+        "2026-09-19": {
+          "arr": 1,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IR95|09:49",
@@ -10198,6 +10366,11 @@
           "arr": 2,
           "dep": 3,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "RE33|10:00",
@@ -10262,11 +10435,16 @@
           "arr": 1,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 11,
+          "dep": 11,
+          "status": "real"
         }
       },
       "key": "IR90|10:15",
       "line": "IR90",
-      "planned_arr": "11:03",
+      "planned_arr": "10:55",
       "planned_dep": "10:15"
     },
     {
@@ -10828,6 +11006,11 @@
           "arr": -2,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IR15|10:23",
@@ -11126,6 +11309,11 @@
           "arr": 0,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "RE33|10:30",
@@ -11299,6 +11487,11 @@
         "2026-09-18": {
           "arr": 2,
           "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 1,
           "status": "real"
         }
       },
@@ -11547,6 +11740,11 @@
         "2026-09-18": {
           "arr": 0,
           "dep": 1,
+          "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
           "status": "real"
         }
       },
@@ -12004,6 +12202,11 @@
           "arr": -1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "RE33|11:00",
@@ -12070,11 +12273,16 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 2,
+          "status": "real"
         }
       },
       "key": "IR90|11:15",
       "line": "IR90",
-      "planned_arr": "12:03",
+      "planned_arr": "11:55",
       "planned_dep": "11:15"
     },
     {
@@ -12632,6 +12840,11 @@
           "arr": -1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": -1,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IR15|11:23",
@@ -12928,6 +13141,11 @@
           "arr": 0,
           "dep": 2,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "RE33|11:30",
@@ -13116,6 +13334,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 6,
+          "status": "real"
         }
       },
       "key": "IR95|11:45",
@@ -13241,6 +13464,11 @@
         "2026-09-18": {
           "arr": 22,
           "dep": 22,
+          "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 11,
+          "dep": 11,
           "status": "real"
         }
       },
@@ -13567,6 +13795,9 @@
           "status": "real"
         },
         "2026-09-18": {
+          "status": "cancelled"
+        },
+        "2026-09-19": {
           "status": "cancelled"
         }
       },
@@ -14024,6 +14255,11 @@
           "arr": 0,
           "dep": 2,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "RE33|12:00",
@@ -14090,11 +14326,16 @@
           "arr": 1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "IR90|12:15",
       "line": "IR90",
-      "planned_arr": "13:03",
+      "planned_arr": "12:55",
       "planned_dep": "12:15"
     },
     {
@@ -14652,6 +14893,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "IR15|12:23",
@@ -14944,6 +15190,11 @@
           "arr": 0,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "RE33|12:30",
@@ -15115,6 +15366,11 @@
         "2026-09-18": {
           "arr": 2,
           "dep": 1,
+          "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 3,
           "status": "real"
         }
       },
@@ -15363,6 +15619,11 @@
         "2026-09-18": {
           "arr": 0,
           "dep": 1,
+          "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
           "status": "real"
         }
       },
@@ -15820,6 +16081,11 @@
           "arr": 0,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "RE33|13:00",
@@ -15886,11 +16152,16 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 1,
+          "dep": 3,
+          "status": "real"
         }
       },
       "key": "IR90|13:15",
       "line": "IR90",
-      "planned_arr": "14:03",
+      "planned_arr": "13:55",
       "planned_dep": "13:15"
     },
     {
@@ -16450,12 +16721,30 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": -2,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IR15|13:23",
       "line": "IR15",
       "planned_arr": "14:05",
       "planned_dep": "13:23"
+    },
+    {
+      "days": {
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 4,
+          "status": "real"
+        }
+      },
+      "key": "TGV|13:25",
+      "line": "TGV",
+      "planned_arr": "14:16",
+      "planned_dep": "13:25"
     },
     {
       "days": {
@@ -16746,6 +17035,11 @@
           "arr": 0,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "RE33|13:30",
@@ -16818,11 +17112,16 @@
           "arr": 13,
           "dep": 12,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "IC|13:46",
       "line": "IC",
-      "planned_arr": "14:34",
+      "planned_arr": "14:25",
       "planned_dep": "13:46"
     },
     {
@@ -17171,6 +17470,11 @@
           "status": "real"
         },
         "2026-09-18": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
           "arr": 0,
           "dep": 0,
           "status": "real"
@@ -17633,6 +17937,11 @@
           "arr": 0,
           "dep": 2,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "RE33|14:00",
@@ -17697,11 +18006,16 @@
         },
         "2026-09-13": {
           "status": "cancelled"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 2,
+          "status": "real"
         }
       },
       "key": "IR90|14:15",
       "line": "IR90",
-      "planned_arr": "15:03",
+      "planned_arr": "14:55",
       "planned_dep": "14:15"
     },
     {
@@ -18253,6 +18567,11 @@
           "arr": -1,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": -1,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IR15|14:23",
@@ -18551,6 +18870,11 @@
           "arr": -1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "RE33|14:30",
@@ -18725,6 +19049,9 @@
           "arr": 1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IC1|14:46",
@@ -18972,6 +19299,11 @@
         "2026-09-18": {
           "arr": 0,
           "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 6,
+          "dep": 10,
           "status": "real"
         }
       },
@@ -19423,6 +19755,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": -1,
+          "dep": 3,
+          "status": "real"
         }
       },
       "key": "RE33|15:00",
@@ -19489,11 +19826,16 @@
           "arr": 3,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 4,
+          "status": "real"
         }
       },
       "key": "IR90|15:15",
       "line": "IR90",
-      "planned_arr": "16:03",
+      "planned_arr": "15:55",
       "planned_dep": "15:15"
     },
     {
@@ -20060,6 +20402,9 @@
           "arr": -1,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR15|15:23",
@@ -20358,6 +20703,11 @@
           "arr": 0,
           "dep": 2,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "RE33|15:30",
@@ -20432,11 +20782,16 @@
           "arr": 0,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 3,
+          "status": "real"
         }
       },
       "key": "IC|15:46",
       "line": "IC",
-      "planned_arr": "16:34",
+      "planned_arr": "16:25",
       "planned_dep": "15:46"
     },
     {
@@ -20789,6 +21144,11 @@
         "2026-09-18": {
           "arr": 0,
           "dep": 1,
+          "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 4,
+          "dep": 11,
           "status": "real"
         }
       },
@@ -21258,6 +21618,11 @@
           "arr": 0,
           "dep": 4,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 3,
+          "status": "real"
         }
       },
       "key": "RE33|16:00",
@@ -21324,11 +21689,16 @@
           "arr": 2,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 12,
+          "dep": 16,
+          "status": "real"
         }
       },
       "key": "IR90|16:15",
       "line": "IR90",
-      "planned_arr": "17:03",
+      "planned_arr": "16:55",
       "planned_dep": "16:15"
     },
     {
@@ -21897,6 +22267,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": -1,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IR15|16:23",
@@ -22195,6 +22570,11 @@
           "arr": 1,
           "dep": 2,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 5,
+          "status": "real"
         }
       },
       "key": "RE33|16:30",
@@ -22381,6 +22761,11 @@
           "arr": 3,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 2,
+          "dep": 6,
+          "status": "real"
         }
       },
       "key": "IR95|16:45",
@@ -22508,6 +22893,11 @@
         "2026-09-18": {
           "arr": 17,
           "dep": 16,
+          "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
           "status": "real"
         }
       },
@@ -22830,6 +23220,9 @@
           "status": "real"
         },
         "2026-09-18": {
+          "status": "cancelled"
+        },
+        "2026-09-19": {
           "status": "cancelled"
         }
       },
@@ -23285,6 +23678,11 @@
           "arr": 0,
           "dep": 3,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "RE33|17:00",
@@ -23349,11 +23747,16 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 3,
+          "status": "real"
         }
       },
       "key": "IR90|17:15",
       "line": "IR90",
-      "planned_arr": "18:03",
+      "planned_arr": "17:55",
       "planned_dep": "17:15"
     },
     {
@@ -23899,12 +24302,30 @@
           "arr": 0,
           "dep": 4,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": -1,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IR15|17:23",
       "line": "IR15",
       "planned_arr": "18:05",
       "planned_dep": "17:23"
+    },
+    {
+      "days": {
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
+        }
+      },
+      "key": "TGV|17:25",
+      "line": "TGV",
+      "planned_arr": "18:16",
+      "planned_dep": "17:25"
     },
     {
       "days": {
@@ -24195,6 +24616,11 @@
           "arr": 0,
           "dep": 2,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "RE33|17:30",
@@ -24267,11 +24693,14 @@
           "arr": 1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IC|17:46",
       "line": "IC",
-      "planned_arr": "18:34",
+      "planned_arr": "18:25",
       "planned_dep": "17:46"
     },
     {
@@ -24616,6 +25045,11 @@
         "2026-09-18": {
           "arr": 0,
           "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 3,
           "status": "real"
         }
       },
@@ -25081,6 +25515,11 @@
           "arr": 0,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "RE33|18:00",
@@ -25145,11 +25584,16 @@
           "arr": 2,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 3,
+          "status": "real"
         }
       },
       "key": "IR90|18:15",
       "line": "IR90",
-      "planned_arr": "19:03",
+      "planned_arr": "18:55",
       "planned_dep": "18:15"
     },
     {
@@ -25703,6 +26147,9 @@
         },
         "2026-09-18": {
           "status": "cancelled"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR15|18:23",
@@ -25995,6 +26442,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 3,
+          "status": "real"
         }
       },
       "key": "RE33|18:30",
@@ -26166,6 +26618,11 @@
         "2026-09-18": {
           "arr": 2,
           "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
+          "arr": -1,
+          "dep": 1,
           "status": "real"
         }
       },
@@ -26412,6 +26869,11 @@
         "2026-09-18": {
           "arr": 0,
           "dep": 1,
+          "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 4,
           "status": "real"
         }
       },
@@ -26859,6 +27321,11 @@
           "arr": 0,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 3,
+          "dep": 5,
+          "status": "real"
         }
       },
       "key": "RE33|19:00",
@@ -26923,11 +27390,16 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 25,
+          "dep": 27,
+          "status": "real"
         }
       },
       "key": "IR90|19:15",
       "line": "IR90",
-      "planned_arr": "20:03",
+      "planned_arr": "19:55",
       "planned_dep": "19:15"
     },
     {
@@ -27477,6 +27949,11 @@
           "arr": -1,
           "dep": 2,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 3,
+          "dep": 8,
+          "status": "real"
         }
       },
       "key": "IR15|19:23",
@@ -27769,6 +28246,11 @@
           "arr": 0,
           "dep": 2,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 4,
+          "dep": 3,
+          "status": "real"
         }
       },
       "key": "RE33|19:30",
@@ -27842,6 +28324,11 @@
         "2026-09-06": {
           "arr": 2,
           "dep": 1,
+          "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 3,
+          "dep": 4,
           "status": "real"
         }
       },
@@ -28206,6 +28693,11 @@
         "2026-09-18": {
           "arr": 0,
           "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 7,
+          "dep": 11,
           "status": "real"
         }
       },
@@ -28666,6 +29158,11 @@
           "arr": 0,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 2,
+          "status": "real"
         }
       },
       "key": "RE33|20:00",
@@ -28732,11 +29229,16 @@
           "arr": 1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 2,
+          "status": "real"
         }
       },
       "key": "IR90|20:15",
       "line": "IR90",
-      "planned_arr": "21:03",
+      "planned_arr": "20:55",
       "planned_dep": "20:15"
     },
     {
@@ -29294,6 +29796,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": -1,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IR15|20:23",
@@ -29593,6 +30100,11 @@
           "arr": 0,
           "dep": 2,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "RE33|20:30",
@@ -29769,6 +30281,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 1,
+          "dep": 9,
+          "status": "real"
         }
       },
       "key": "IR95|20:45",
@@ -29909,6 +30426,11 @@
         "2026-09-18": {
           "arr": 0,
           "dep": 1,
+          "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 6,
+          "dep": 8,
           "status": "real"
         }
       },
@@ -30237,6 +30759,9 @@
           "status": "real"
         },
         "2026-09-18": {
+          "status": "cancelled"
+        },
+        "2026-09-19": {
           "status": "cancelled"
         }
       },
@@ -30690,6 +31215,11 @@
           "arr": 0,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "RE33|21:00",
@@ -30741,11 +31271,16 @@
           "arr": 8,
           "dep": 10,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "IR90|21:15",
       "line": "IR90",
-      "planned_arr": "22:03",
+      "planned_arr": "21:55",
       "planned_dep": "21:15"
     },
     {
@@ -30896,6 +31431,11 @@
         },
         "2026-09-18": {
           "arr": -2,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
           "dep": 0,
           "status": "real"
         }
@@ -31199,6 +31739,11 @@
           "arr": 0,
           "dep": 3,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "RE33|21:30",
@@ -31316,6 +31861,11 @@
         "2026-09-18": {
           "arr": -1,
           "dep": 1,
+          "status": "real"
+        },
+        "2026-09-19": {
+          "arr": -1,
+          "dep": 3,
           "status": "real"
         }
       },
@@ -31848,6 +32398,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "RE33|22:00",
@@ -31871,11 +32426,16 @@
           "arr": -1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 5,
+          "dep": 6,
+          "status": "real"
         }
       },
       "key": "IR90|22:15",
       "line": "IR90",
-      "planned_arr": "23:03",
+      "planned_arr": "22:55",
       "planned_dep": "22:15"
     },
     {
@@ -32244,6 +32804,11 @@
           "arr": 1,
           "dep": 3,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "RE33|22:30",
@@ -32380,6 +32945,11 @@
           "arr": 2,
           "dep": 2,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": -2,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IR95|22:45",
@@ -32461,6 +33031,11 @@
         "2026-09-18": {
           "arr": 0,
           "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 2,
+          "dep": 4,
           "status": "real"
         }
       },
@@ -32738,6 +33313,9 @@
           "status": "real"
         },
         "2026-09-18": {
+          "status": "cancelled"
+        },
+        "2026-09-19": {
           "status": "cancelled"
         }
       },
@@ -33049,6 +33627,9 @@
           "arr": 15,
           "dep": 24,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "RE33|23:00",
@@ -33320,6 +33901,9 @@
           "status": "real"
         },
         "2026-09-18": {
+          "status": "cancelled"
+        },
+        "2026-09-19": {
           "status": "cancelled"
         }
       },
@@ -33631,6 +34215,9 @@
           "arr": 0,
           "dep": 3,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "RE33|23:30",
@@ -33942,6 +34529,9 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "status": "cancelled"
         }
       },
       "key": "IR95|23:50",

@@ -292,6 +292,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "R1|00:21",
@@ -582,6 +587,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "R2|00:54",
@@ -634,6 +644,9 @@
           "status": "nodata"
         },
         "2026-09-18": {
+          "status": "nodata"
+        },
+        "2026-09-19": {
           "status": "nodata"
         }
       },
@@ -971,6 +984,11 @@
           "arr": 6,
           "dep": 4,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "R1|04:14",
@@ -1273,6 +1291,11 @@
           "arr": 0,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 1,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "R1|04:44",
@@ -1574,6 +1597,11 @@
           "status": "real"
         },
         "2026-09-18": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
           "arr": 0,
           "dep": 0,
           "status": "real"
@@ -1881,6 +1909,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "R1|05:51",
@@ -2182,6 +2215,11 @@
           "status": "real"
         },
         "2026-09-18": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
           "arr": 0,
           "dep": 0,
           "status": "real"
@@ -2487,6 +2525,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": -1,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "R1|06:51",
@@ -2788,6 +2831,11 @@
           "status": "real"
         },
         "2026-09-18": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
           "arr": 0,
           "dep": 0,
           "status": "real"
@@ -3095,6 +3143,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "R1|07:51",
@@ -3396,6 +3449,11 @@
           "status": "real"
         },
         "2026-09-18": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
           "arr": 0,
           "dep": 0,
           "status": "real"
@@ -3703,6 +3761,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "R1|08:51",
@@ -4002,6 +4065,11 @@
           "status": "real"
         },
         "2026-09-18": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
           "arr": 0,
           "dep": 0,
           "status": "real"
@@ -4309,6 +4377,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "R1|09:51",
@@ -4610,6 +4683,11 @@
           "status": "real"
         },
         "2026-09-18": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
           "arr": 0,
           "dep": 0,
           "status": "real"
@@ -4917,6 +4995,11 @@
           "arr": -1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "R1|10:51",
@@ -5218,6 +5301,11 @@
           "status": "real"
         },
         "2026-09-18": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
           "arr": 0,
           "dep": 0,
           "status": "real"
@@ -5527,6 +5615,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "R1|11:51",
@@ -5828,6 +5921,11 @@
           "status": "real"
         },
         "2026-09-18": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
           "arr": 0,
           "dep": 0,
           "status": "real"
@@ -6137,6 +6235,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "R1|12:51",
@@ -6440,6 +6543,11 @@
           "status": "real"
         },
         "2026-09-18": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
           "arr": 0,
           "dep": 0,
           "status": "real"
@@ -6749,6 +6857,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "R1|13:51",
@@ -7055,6 +7168,11 @@
           "arr": 1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "R2|14:21",
@@ -7357,6 +7475,11 @@
           "arr": 1,
           "dep": 2,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "R1|14:51",
@@ -7655,6 +7778,11 @@
         },
         "2026-09-18": {
           "arr": 1,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
           "dep": 0,
           "status": "real"
         }
@@ -7959,6 +8087,11 @@
           "arr": 2,
           "dep": 4,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "R1|15:51",
@@ -8256,6 +8389,11 @@
           "status": "real"
         },
         "2026-09-18": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
           "arr": 0,
           "dep": 0,
           "status": "real"
@@ -8559,6 +8697,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": -1,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "R1|16:51",
@@ -8856,6 +8999,11 @@
           "status": "real"
         },
         "2026-09-18": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
           "arr": 0,
           "dep": 0,
           "status": "real"
@@ -9163,6 +9311,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "R1|17:51",
@@ -9467,6 +9620,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 2,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "R2|18:21",
@@ -9768,6 +9926,11 @@
           "status": "real"
         },
         "2026-09-18": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
           "arr": 0,
           "dep": 0,
           "status": "real"
@@ -10075,6 +10238,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "R2|19:21",
@@ -10376,6 +10544,11 @@
           "status": "real"
         },
         "2026-09-18": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
           "arr": 0,
           "dep": 0,
           "status": "real"
@@ -10683,6 +10856,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "R2|20:21",
@@ -10987,6 +11165,11 @@
           "arr": 0,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "R2|20:51",
@@ -11289,6 +11472,11 @@
         },
         "2026-09-18": {
           "arr": -1,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
           "dep": 0,
           "status": "real"
         }
@@ -11595,6 +11783,11 @@
           "arr": 0,
           "dep": 2,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "R2|21:51",
@@ -11887,6 +12080,11 @@
         },
         "2026-09-18": {
           "arr": -1,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
           "dep": 0,
           "status": "real"
         }
@@ -12183,6 +12381,11 @@
           "arr": 1,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 3,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "R2|22:51",
@@ -12473,6 +12676,11 @@
           "arr": 0,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-19": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "R1|23:21",
@@ -12760,6 +12968,11 @@
           "status": "cancelled"
         },
         "2026-09-18": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
+        },
+        "2026-09-19": {
           "arr": 0,
           "dep": 1,
           "status": "real"
