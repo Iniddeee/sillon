@@ -333,6 +333,11 @@
           "arr": 1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-26": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IC51|05:11",
@@ -668,6 +673,11 @@
           "arr": 0,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-26": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IC51|05:41",
@@ -1000,6 +1010,11 @@
           "status": "real"
         },
         "2026-09-25": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-26": {
           "arr": 0,
           "dep": 0,
           "status": "real"
@@ -1338,6 +1353,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-26": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IR56|06:41",
@@ -1670,6 +1690,11 @@
           "status": "real"
         },
         "2026-09-25": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-26": {
           "arr": 0,
           "dep": 0,
           "status": "real"
@@ -2008,6 +2033,11 @@
           "arr": 0,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-26": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "IR56|07:41",
@@ -2340,6 +2370,11 @@
           "status": "real"
         },
         "2026-09-25": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
+        },
+        "2026-09-26": {
           "arr": 0,
           "dep": 1,
           "status": "real"
@@ -2678,6 +2713,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-26": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IR56|08:41",
@@ -3013,6 +3053,11 @@
           "arr": 3,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-26": {
+          "arr": 1,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IC51|09:11",
@@ -3100,6 +3145,11 @@
           "status": "real"
         },
         "2026-09-20": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-26": {
           "arr": 0,
           "dep": 0,
           "status": "real"
@@ -3687,6 +3737,11 @@
           "arr": 1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-26": {
+          "arr": 1,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IC51|10:11",
@@ -4011,6 +4066,11 @@
           "status": "real"
         },
         "2026-09-25": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-26": {
           "arr": 0,
           "dep": 0,
           "status": "real"
@@ -4347,6 +4407,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-26": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IC51|11:11",
@@ -4679,6 +4744,11 @@
         "2026-09-25": {
           "arr": -1,
           "dep": 1,
+          "status": "real"
+        },
+        "2026-09-26": {
+          "arr": 0,
+          "dep": 0,
           "status": "real"
         }
       },
@@ -5013,6 +5083,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-26": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "IC51|12:11",
@@ -5346,6 +5421,11 @@
           "arr": 1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-26": {
+          "arr": -1,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IR56|12:41",
@@ -5674,6 +5754,11 @@
           "status": "real"
         },
         "2026-09-25": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-26": {
           "arr": 0,
           "dep": 0,
           "status": "real"
@@ -6012,6 +6097,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-26": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IR56|13:41",
@@ -6344,6 +6434,11 @@
           "status": "real"
         },
         "2026-09-25": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-26": {
           "arr": 0,
           "dep": 0,
           "status": "real"
@@ -6682,6 +6777,11 @@
           "arr": 1,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-26": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IR56|14:41",
@@ -7015,6 +7115,11 @@
         },
         "2026-09-25": {
           "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-26": {
+          "arr": 1,
           "dep": 0,
           "status": "real"
         }
@@ -7352,6 +7457,11 @@
           "arr": -1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-26": {
+          "arr": -1,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "IR56|15:41",
@@ -7687,6 +7797,11 @@
           "arr": 1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-26": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IC51|16:11",
@@ -8019,6 +8134,11 @@
           "status": "real"
         },
         "2026-09-25": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-26": {
           "arr": 0,
           "dep": 0,
           "status": "real"
@@ -8357,6 +8477,11 @@
           "arr": 1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-26": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IC51|17:11",
@@ -8689,6 +8814,11 @@
           "status": "real"
         },
         "2026-09-25": {
+          "arr": -1,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-26": {
           "arr": -1,
           "dep": 0,
           "status": "real"
@@ -9027,6 +9157,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-26": {
+          "arr": -1,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IC51|18:11",
@@ -9359,6 +9494,11 @@
           "status": "real"
         },
         "2026-09-25": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-26": {
           "arr": 0,
           "dep": 0,
           "status": "real"
@@ -9697,6 +9837,11 @@
           "arr": 1,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-26": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IC51|19:11",
@@ -10029,6 +10174,11 @@
           "status": "real"
         },
         "2026-09-25": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-26": {
           "arr": 0,
           "dep": 0,
           "status": "real"
@@ -10367,6 +10517,11 @@
           "arr": 0,
           "dep": 1,
           "status": "real"
+        },
+        "2026-09-26": {
+          "arr": 13,
+          "dep": 9,
+          "status": "real"
         }
       },
       "key": "IC51|20:11",
@@ -10699,6 +10854,11 @@
           "status": "real"
         },
         "2026-09-25": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-26": {
           "arr": 0,
           "dep": 0,
           "status": "real"
@@ -11035,6 +11195,11 @@
           "arr": 5,
           "dep": 7,
           "status": "real"
+        },
+        "2026-09-26": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IC51|21:11",
@@ -11367,6 +11532,11 @@
           "status": "real"
         },
         "2026-09-25": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-26": {
           "arr": 0,
           "dep": 0,
           "status": "real"
@@ -11705,6 +11875,11 @@
           "arr": 0,
           "dep": 4,
           "status": "real"
+        },
+        "2026-09-26": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IC51|22:11",
@@ -12040,6 +12215,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-09-26": {
+          "arr": -1,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IR56|22:41",
@@ -12135,6 +12315,11 @@
         },
         "2026-09-25": {
           "arr": 1,
+          "dep": 0,
+          "status": "real"
+        },
+        "2026-09-26": {
+          "arr": 2,
           "dep": 0,
           "status": "real"
         }
@@ -12471,6 +12656,11 @@
         "2026-09-25": {
           "arr": 0,
           "dep": 0,
+          "status": "real"
+        },
+        "2026-09-26": {
+          "arr": 0,
+          "dep": 1,
           "status": "real"
         }
       },
