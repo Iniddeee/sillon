@@ -382,6 +382,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-10-03": {
+          "arr": 1,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IR70|00:10",
@@ -489,6 +494,11 @@
         "2026-09-27": {
           "arr": 12,
           "dep": 16,
+          "status": "real"
+        },
+        "2026-10-03": {
+          "arr": 0,
+          "dep": 0,
           "status": "real"
         }
       },
@@ -611,6 +621,11 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-10-03": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "REN7|01:35",
@@ -719,6 +734,11 @@
           "arr": 2,
           "dep": 0,
           "status": "real"
+        },
+        "2026-10-03": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "REN7|02:35",
@@ -826,6 +846,11 @@
         "2026-09-27": {
           "arr": 0,
           "dep": 1,
+          "status": "real"
+        },
+        "2026-10-03": {
+          "arr": 0,
+          "dep": 0,
           "status": "real"
         }
       },
@@ -1199,12 +1224,30 @@
           "arr": 2,
           "dep": 0,
           "status": "real"
+        },
+        "2026-10-03": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IR75|05:35",
       "line": "IR75",
       "planned_arr": "06:25",
       "planned_dep": "05:35"
+    },
+    {
+      "days": {
+        "2026-10-03": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IR70|06:07",
+      "line": "IR70",
+      "planned_arr": "06:51",
+      "planned_dep": "06:07"
     },
     {
       "days": {
@@ -1939,12 +1982,30 @@
           "arr": 0,
           "dep": 1,
           "status": "real"
+        },
+        "2026-10-03": {
+          "arr": 2,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "IR75|06:35",
       "line": "IR75",
       "planned_arr": "07:25",
       "planned_dep": "06:35"
+    },
+    {
+      "days": {
+        "2026-10-03": {
+          "arr": 0,
+          "dep": 2,
+          "status": "real"
+        }
+      },
+      "key": "IR70|07:07",
+      "line": "IR70",
+      "planned_arr": "07:51",
+      "planned_dep": "07:07"
     },
     {
       "days": {
@@ -2689,12 +2750,30 @@
           "arr": 2,
           "dep": 2,
           "status": "real"
+        },
+        "2026-10-03": {
+          "arr": 2,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "IR75|07:35",
       "line": "IR75",
       "planned_arr": "08:25",
       "planned_dep": "07:35"
+    },
+    {
+      "days": {
+        "2026-10-03": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
+        }
+      },
+      "key": "IR70|08:07",
+      "line": "IR70",
+      "planned_arr": "08:51",
+      "planned_dep": "08:07"
     },
     {
       "days": {
@@ -3437,12 +3516,30 @@
           "arr": 1,
           "dep": 2,
           "status": "real"
+        },
+        "2026-10-03": {
+          "arr": 3,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "IR75|08:35",
       "line": "IR75",
       "planned_arr": "09:25",
       "planned_dep": "08:35"
+    },
+    {
+      "days": {
+        "2026-10-03": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
+        }
+      },
+      "key": "IR70|09:07",
+      "line": "IR70",
+      "planned_arr": "09:51",
+      "planned_dep": "09:07"
     },
     {
       "days": {
@@ -4189,12 +4286,30 @@
           "arr": 2,
           "dep": 2,
           "status": "real"
+        },
+        "2026-10-03": {
+          "arr": 2,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IR75|09:35",
       "line": "IR75",
       "planned_arr": "10:25",
       "planned_dep": "09:35"
+    },
+    {
+      "days": {
+        "2026-10-03": {
+          "arr": 3,
+          "dep": 8,
+          "status": "real"
+        }
+      },
+      "key": "IR70|10:07",
+      "line": "IR70",
+      "planned_arr": "10:51",
+      "planned_dep": "10:07"
     },
     {
       "days": {
@@ -4925,12 +5040,30 @@
           "arr": 1,
           "dep": 1,
           "status": "real"
+        },
+        "2026-10-03": {
+          "arr": 1,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "IR75|10:35",
       "line": "IR75",
       "planned_arr": "11:25",
       "planned_dep": "10:35"
+    },
+    {
+      "days": {
+        "2026-10-03": {
+          "arr": 2,
+          "dep": 2,
+          "status": "real"
+        }
+      },
+      "key": "IR70|11:07",
+      "line": "IR70",
+      "planned_arr": "11:51",
+      "planned_dep": "11:07"
     },
     {
       "days": {
@@ -5659,12 +5792,30 @@
           "arr": 1,
           "dep": 3,
           "status": "real"
+        },
+        "2026-10-03": {
+          "arr": 1,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "IR75|11:35",
       "line": "IR75",
       "planned_arr": "12:25",
       "planned_dep": "11:35"
+    },
+    {
+      "days": {
+        "2026-10-03": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
+        }
+      },
+      "key": "IR70|12:07",
+      "line": "IR70",
+      "planned_arr": "12:51",
+      "planned_dep": "12:07"
     },
     {
       "days": {
@@ -6411,12 +6562,30 @@
           "arr": 0,
           "dep": 1,
           "status": "real"
+        },
+        "2026-10-03": {
+          "arr": 1,
+          "dep": 2,
+          "status": "real"
         }
       },
       "key": "IR75|12:35",
       "line": "IR75",
       "planned_arr": "13:25",
       "planned_dep": "12:35"
+    },
+    {
+      "days": {
+        "2026-10-03": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
+        }
+      },
+      "key": "IR70|13:07",
+      "line": "IR70",
+      "planned_arr": "13:51",
+      "planned_dep": "13:07"
     },
     {
       "days": {
@@ -7153,12 +7322,30 @@
           "arr": 0,
           "dep": 2,
           "status": "real"
+        },
+        "2026-10-03": {
+          "arr": 1,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "IR75|13:35",
       "line": "IR75",
       "planned_arr": "14:25",
       "planned_dep": "13:35"
+    },
+    {
+      "days": {
+        "2026-10-03": {
+          "arr": 0,
+          "dep": 2,
+          "status": "real"
+        }
+      },
+      "key": "IR70|14:07",
+      "line": "IR70",
+      "planned_arr": "14:51",
+      "planned_dep": "14:07"
     },
     {
       "days": {
@@ -7907,6 +8094,11 @@
           "arr": 2,
           "dep": 1,
           "status": "real"
+        },
+        "2026-10-03": {
+          "arr": 2,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "IR75|14:35",
@@ -7926,6 +8118,19 @@
       "line": "EXT",
       "planned_arr": "15:39",
       "planned_dep": "14:40"
+    },
+    {
+      "days": {
+        "2026-10-03": {
+          "arr": 1,
+          "dep": 1,
+          "status": "real"
+        }
+      },
+      "key": "IR70|15:07",
+      "line": "IR70",
+      "planned_arr": "15:51",
+      "planned_dep": "15:07"
     },
     {
       "days": {
@@ -8654,6 +8859,11 @@
           "arr": 1,
           "dep": 2,
           "status": "real"
+        },
+        "2026-10-03": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "IR75|15:35",
@@ -8673,6 +8883,19 @@
       "line": "EXT",
       "planned_arr": "16:39",
       "planned_dep": "15:40"
+    },
+    {
+      "days": {
+        "2026-10-03": {
+          "arr": 1,
+          "dep": 1,
+          "status": "real"
+        }
+      },
+      "key": "IR70|16:07",
+      "line": "IR70",
+      "planned_arr": "16:51",
+      "planned_dep": "16:07"
     },
     {
       "days": {
@@ -9413,6 +9636,11 @@
           "arr": 3,
           "dep": 1,
           "status": "real"
+        },
+        "2026-10-03": {
+          "arr": 3,
+          "dep": 3,
+          "status": "real"
         }
       },
       "key": "IR75|16:35",
@@ -9639,6 +9867,19 @@
       "line": "IR",
       "planned_arr": "17:39",
       "planned_dep": "16:39"
+    },
+    {
+      "days": {
+        "2026-10-03": {
+          "arr": 1,
+          "dep": 3,
+          "status": "real"
+        }
+      },
+      "key": "IR70|17:07",
+      "line": "IR70",
+      "planned_arr": "17:51",
+      "planned_dep": "17:07"
     },
     {
       "days": {
@@ -10383,6 +10624,11 @@
           "arr": 4,
           "dep": 2,
           "status": "real"
+        },
+        "2026-10-03": {
+          "arr": 4,
+          "dep": 4,
+          "status": "real"
         }
       },
       "key": "IR75|17:35",
@@ -10613,6 +10859,19 @@
       "line": "IR",
       "planned_arr": "18:39",
       "planned_dep": "17:39"
+    },
+    {
+      "days": {
+        "2026-10-03": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
+        }
+      },
+      "key": "IR70|18:07",
+      "line": "IR70",
+      "planned_arr": "18:51",
+      "planned_dep": "18:07"
     },
     {
       "days": {
@@ -11355,12 +11614,30 @@
           "arr": 0,
           "dep": 3,
           "status": "real"
+        },
+        "2026-10-03": {
+          "arr": 1,
+          "dep": 2,
+          "status": "real"
         }
       },
       "key": "IR75|18:35",
       "line": "IR75",
       "planned_arr": "19:25",
       "planned_dep": "18:35"
+    },
+    {
+      "days": {
+        "2026-10-03": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
+        }
+      },
+      "key": "IR70|19:07",
+      "line": "IR70",
+      "planned_arr": "19:51",
+      "planned_dep": "19:07"
     },
     {
       "days": {
@@ -12101,12 +12378,30 @@
           "arr": 4,
           "dep": 2,
           "status": "real"
+        },
+        "2026-10-03": {
+          "arr": 2,
+          "dep": 1,
+          "status": "real"
         }
       },
       "key": "IR75|19:35",
       "line": "IR75",
       "planned_arr": "20:25",
       "planned_dep": "19:35"
+    },
+    {
+      "days": {
+        "2026-10-03": {
+          "arr": 0,
+          "dep": 1,
+          "status": "real"
+        }
+      },
+      "key": "IR70|20:07",
+      "line": "IR70",
+      "planned_arr": "20:51",
+      "planned_dep": "20:07"
     },
     {
       "days": {
@@ -12829,6 +13124,11 @@
           "arr": 0,
           "dep": 2,
           "status": "real"
+        },
+        "2026-10-03": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IR75|20:35",
@@ -13202,6 +13502,11 @@
         "2026-10-02": {
           "arr": 0,
           "dep": 1,
+          "status": "real"
+        },
+        "2026-10-03": {
+          "arr": 2,
+          "dep": 0,
           "status": "real"
         }
       },
@@ -13579,6 +13884,11 @@
           "arr": 0,
           "dep": 1,
           "status": "real"
+        },
+        "2026-10-03": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IR75|21:35",
@@ -13939,6 +14249,11 @@
         },
         "2026-10-02": {
           "status": "cancelled"
+        },
+        "2026-10-03": {
+          "arr": 1,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IR70|22:10",
@@ -14311,6 +14626,11 @@
           "arr": 0,
           "dep": 1,
           "status": "real"
+        },
+        "2026-10-03": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IR75|22:35",
@@ -14669,6 +14989,11 @@
         },
         "2026-10-02": {
           "status": "cancelled"
+        },
+        "2026-10-03": {
+          "arr": 0,
+          "dep": 0,
+          "status": "real"
         }
       },
       "key": "IR70|23:10",
@@ -15038,6 +15363,11 @@
         "2026-10-02": {
           "arr": 0,
           "dep": 0,
+          "status": "real"
+        },
+        "2026-10-03": {
+          "arr": -1,
+          "dep": 3,
           "status": "real"
         }
       },
