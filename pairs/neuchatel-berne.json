@@ -416,6 +416,9 @@
         },
         "2026-10-10": {
           "status": "cancelled"
+        },
+        "2026-10-11": {
+          "status": "cancelled"
         }
       },
       "key": "IR66|05:32",
@@ -831,6 +834,9 @@
           "status": "real"
         },
         "2026-10-10": {
+          "status": "cancelled"
+        },
+        "2026-10-11": {
           "status": "cancelled"
         }
       },
@@ -1551,6 +1557,9 @@
         },
         "2026-10-10": {
           "status": "cancelled"
+        },
+        "2026-10-11": {
+          "status": "cancelled"
         }
       },
       "key": "IR66|07:32",
@@ -1967,6 +1976,9 @@
         },
         "2026-10-10": {
           "status": "cancelled"
+        },
+        "2026-10-11": {
+          "status": "cancelled"
         }
       },
       "key": "IR66|08:32",
@@ -2381,6 +2393,9 @@
         },
         "2026-10-10": {
           "status": "cancelled"
+        },
+        "2026-10-11": {
+          "status": "cancelled"
         }
       },
       "key": "IR66|09:32",
@@ -2793,6 +2808,9 @@
         },
         "2026-10-10": {
           "status": "cancelled"
+        },
+        "2026-10-11": {
+          "status": "cancelled"
         }
       },
       "key": "IR66|10:32",
@@ -3204,6 +3222,9 @@
           "status": "real"
         },
         "2026-10-10": {
+          "status": "cancelled"
+        },
+        "2026-10-11": {
           "status": "cancelled"
         }
       },
@@ -3619,6 +3640,9 @@
         },
         "2026-10-10": {
           "status": "cancelled"
+        },
+        "2026-10-11": {
+          "status": "cancelled"
         }
       },
       "key": "IR66|12:32",
@@ -4030,6 +4054,9 @@
           "status": "real"
         },
         "2026-10-10": {
+          "status": "cancelled"
+        },
+        "2026-10-11": {
           "status": "cancelled"
         }
       },
@@ -4443,6 +4470,9 @@
         },
         "2026-10-10": {
           "status": "cancelled"
+        },
+        "2026-10-11": {
+          "status": "cancelled"
         }
       },
       "key": "IR66|14:32",
@@ -4854,6 +4884,9 @@
           "status": "real"
         },
         "2026-10-10": {
+          "status": "cancelled"
+        },
+        "2026-10-11": {
           "status": "cancelled"
         }
       },
@@ -5269,6 +5302,9 @@
         },
         "2026-10-10": {
           "status": "cancelled"
+        },
+        "2026-10-11": {
+          "status": "cancelled"
         }
       },
       "key": "IR66|16:32",
@@ -5682,6 +5718,9 @@
           "status": "real"
         },
         "2026-10-10": {
+          "status": "cancelled"
+        },
+        "2026-10-11": {
           "status": "cancelled"
         }
       },
@@ -6097,6 +6136,9 @@
         },
         "2026-10-10": {
           "status": "cancelled"
+        },
+        "2026-10-11": {
+          "status": "cancelled"
         }
       },
       "key": "IR66|18:32",
@@ -6510,6 +6552,9 @@
           "status": "real"
         },
         "2026-10-10": {
+          "status": "cancelled"
+        },
+        "2026-10-11": {
           "status": "cancelled"
         }
       },
@@ -6925,6 +6970,9 @@
         },
         "2026-10-10": {
           "status": "cancelled"
+        },
+        "2026-10-11": {
+          "status": "cancelled"
         }
       },
       "key": "IR66|20:32",
@@ -7339,6 +7387,9 @@
         },
         "2026-10-10": {
           "status": "cancelled"
+        },
+        "2026-10-11": {
+          "status": "cancelled"
         }
       },
       "key": "IR66|21:32",
@@ -7464,6 +7515,9 @@
           "arr": 0,
           "dep": 0,
           "status": "real"
+        },
+        "2026-10-11": {
+          "status": "cancelled"
         }
       },
       "key": "TER|21:56",
@@ -7874,6 +7928,9 @@
         },
         "2026-10-10": {
           "status": "cancelled"
+        },
+        "2026-10-11": {
+          "status": "cancelled"
         }
       },
       "key": "IR66|22:32",
@@ -8281,6 +8338,9 @@
           "status": "real"
         },
         "2026-10-10": {
+          "status": "cancelled"
+        },
+        "2026-10-11": {
           "status": "cancelled"
         }
       },
